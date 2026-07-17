@@ -1,9 +1,11 @@
 import { redirect } from 'next/navigation';
 import { db } from '@/lib/db';
 import { getCurrentUser } from '@/lib/auth';
-import { movePlayerToTeam } from '@/lib/actions/players';
+import { movePlayerToTeam, setCaptain, setSuperUser } from '@/lib/actions/players';
+import { formatLeagueName } from '@/lib/format';
 
-// Super-User-only: move a player from one team to another.
+// Super-User-only: move a player from one team to another, and assign
+// Admin (team captain) / Super User status without needing Supabase access.
 export default async function PlayersAdminPage() {
   const user = await getCurrentUser();
   if (!user) redirect('/login');
@@ -29,27 +31,26 @@ export default async function PlayersAdminPage() {
   ]);
 
   return (
-    <div className="mx-auto max-w-3xl py-10">
+    <div className="mx-auto max-w-4xl py-10">
       <h1 className="text-2xl font-semibold">Manage players</h1>
       <table className="mt-6 w-full border-collapse text-sm">
         <thead>
           <tr className="border-b border-gray-300 text-left text-gray-500">
             <th className="py-2 pr-4">Player</th>
             <th className="py-2 pr-4">Current team</th>
-            <th className="py-2">Move to</th>
+            <th className="py-2 pr-4">Move to</th>
+            <th className="py-2 pr-4">Admin</th>
+            <th className="py-2">Super User</th>
           </tr>
         </thead>
         <tbody>
           {memberships.map((m) => (
             <tr key={m.id} className="border-b border-gray-100">
+              <td className="py-2 pr-4">{m.user.displayName}</td>
               <td className="py-2 pr-4">
-                {m.user.displayName}
-                {m.isCaptain ? ' (Captain)' : ''}
+                {m.team.name} — {formatLeagueName(m.team.league)}
               </td>
               <td className="py-2 pr-4">
-                {m.team.name} — {m.team.league.name}
-              </td>
-              <td className="py-2">
                 <form action={movePlayerToTeam} className="flex items-center gap-2">
                   <input type="hidden" name="membershipId" value={m.id} />
                   <select
@@ -58,7 +59,7 @@ export default async function PlayersAdminPage() {
                     className="rounded border border-gray-300 px-2 py-1"
                   >
                     {leagues.map((l) => (
-                      <optgroup key={l.id} label={l.name}>
+                      <optgroup key={l.id} label={formatLeagueName(l)}>
                         {l.teams.map((t) => (
                           <option key={t.id} value={t.id}>
                             {t.name}
@@ -72,11 +73,35 @@ export default async function PlayersAdminPage() {
                   </button>
                 </form>
               </td>
+              <td className="py-2 pr-4">
+                <form action={setCaptain}>
+                  <input type="hidden" name="membershipId" value={m.id} />
+                  <input type="hidden" name="isCaptain" value={(!m.isCaptain).toString()} />
+                  <button
+                    type="submit"
+                    className="rounded border border-gray-300 px-3 py-1 whitespace-nowrap"
+                  >
+                    {m.isCaptain ? 'Remove Admin' : 'Make Admin'}
+                  </button>
+                </form>
+              </td>
+              <td className="py-2">
+                <form action={setSuperUser}>
+                  <input type="hidden" name="userId" value={m.user.id} />
+                  <input type="hidden" name="isAdmin" value={(!m.user.isAdmin).toString()} />
+                  <button
+                    type="submit"
+                    className="rounded border border-gray-300 px-3 py-1 whitespace-nowrap"
+                  >
+                    {m.user.isAdmin ? 'Remove Super User' : 'Make Super User'}
+                  </button>
+                </form>
+              </td>
             </tr>
           ))}
           {memberships.length === 0 && (
             <tr>
-              <td colSpan={3} className="py-4 text-gray-600">
+              <td colSpan={5} className="py-4 text-gray-600">
                 No players yet.
               </td>
             </tr>

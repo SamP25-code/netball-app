@@ -3,6 +3,7 @@ import { db } from '@/lib/db';
 import { getCurrentUser, canViewLeague } from '@/lib/auth';
 import { getCurrentSeason } from '@/lib/season';
 import { computeTeamStats } from '@/lib/team-stats';
+import { formatLeagueName } from '@/lib/format';
 
 export default async function TeamStatsPage({
   params,
@@ -32,7 +33,7 @@ export default async function TeamStatsPage({
   return (
     <div className="mx-auto max-w-2xl py-10">
       <h1 className="text-2xl font-semibold">{team.name}</h1>
-      <p className="text-sm text-gray-600">{team.league.name}</p>
+      <p className="text-sm text-gray-600">{formatLeagueName(team.league)}</p>
 
       <dl className="mt-6 grid grid-cols-3 gap-4 text-center sm:grid-cols-6">
         {(

@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation';
 import { db } from '@/lib/db';
 import { getCurrentUser } from '@/lib/auth';
 import { getLeagueWithCurrentSeasonFixtures } from '@/lib/league-view';
+import { formatLeagueName } from '@/lib/format';
 import { ScoreEntryForm } from '@/components/ScoreEntryForm';
 
 // Only a Super User can enter scores — captains ("Admin") view-only, matching
@@ -37,7 +38,7 @@ export default async function ScoreEntryPage({
           {leagues.map((l) => (
             <li key={l.id}>
               <Link href={`/admin/score-entry?leagueId=${l.id}`} className="underline">
-                {l.name}
+                {formatLeagueName(l)}
               </Link>
             </li>
           ))}
@@ -60,7 +61,7 @@ export default async function ScoreEntryPage({
 
   return (
     <div className="mx-auto max-w-3xl py-10">
-      <h1 className="text-2xl font-semibold">{league.name} — Score entry</h1>
+      <h1 className="text-2xl font-semibold">{formatLeagueName(league)} — Score entry</h1>
       <div className="mt-6 flex flex-col divide-y divide-gray-100">
         {fixtures.map((f) => (
           <div key={f.id} className="py-1">

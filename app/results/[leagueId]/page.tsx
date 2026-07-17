@@ -3,6 +3,7 @@ import { getCurrentUser, canViewLeague } from '@/lib/auth';
 import { getDefaultLeagueId } from '@/lib/default-league';
 import { getUserTeamMemberships } from '@/lib/teams';
 import { getLeagueWithCurrentSeasonFixtures } from '@/lib/league-view';
+import { formatLeagueName } from '@/lib/format';
 import { LeagueNav } from '@/components/LeagueNav';
 import { ScopeToggle } from '@/components/ScopeToggle';
 import { FixtureRow } from '@/components/FixtureRow';
@@ -48,7 +49,7 @@ export default async function ResultsPage({
 
   return (
     <div className="mx-auto max-w-3xl py-10">
-      <h1 className="text-2xl font-semibold">{league.name}</h1>
+      <h1 className="text-2xl font-semibold">{formatLeagueName(league)}</h1>
       <LeagueNav leagueId={league.id} active="results" />
       {myTeamId && <ScopeToggle basePath="results" leagueId={league.id} active={scope} />}
 

@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation';
 import { db } from '@/lib/db';
 import { getCurrentUser } from '@/lib/auth';
 import { getUserTeamMemberships } from '@/lib/teams';
+import { formatLeagueName } from '@/lib/format';
 
 // Browsing every club is an admin-only capability — regular players and
 // captains only ever see their own club (see lib/auth.ts#canViewLeague).
@@ -31,7 +32,7 @@ export default async function LeaguesPage() {
       <ul className="flex flex-col gap-2">
         {leagues.map((l) => (
           <li key={l.id} className="rounded border border-gray-200 p-4">
-            <div className="font-medium">{l.name}</div>
+            <div className="font-medium">{formatLeagueName(l)}</div>
             <div className="mt-2 flex gap-4 text-sm">
               <Link href={`/fixtures/${l.id}`} className="underline">
                 Fixtures

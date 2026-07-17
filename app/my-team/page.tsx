@@ -4,6 +4,7 @@ import { db } from '@/lib/db';
 import { getCurrentUser } from '@/lib/auth';
 import { getUserTeamMemberships } from '@/lib/teams';
 import { getLeagueWithCurrentSeasonFixtures } from '@/lib/league-view';
+import { formatLeagueName } from '@/lib/format';
 import { FixtureRow } from '@/components/FixtureRow';
 
 export default async function MyTeamPage() {
@@ -40,7 +41,7 @@ export default async function MyTeamPage() {
   return (
     <div className="mx-auto max-w-3xl py-10">
       <h1 className="text-2xl font-semibold">{team.name}</h1>
-      <p className="text-sm text-gray-600">{league.name}</p>
+      <p className="text-sm text-gray-600">{formatLeagueName(league)}</p>
       <p className="mt-2">
         <Link href={`/teams/${team.id}`} className="text-sm underline">
           View team stats →

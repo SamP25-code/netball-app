@@ -26,7 +26,7 @@ export default async function ResultsPage({
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="text-2xl font-semibold">Results</h1>
-        <p className="mt-4 text-sm text-gray-600">
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
           You&apos;re not linked to a team in this league.
         </p>
       </div>
@@ -53,8 +53,10 @@ export default async function ResultsPage({
       <LeagueNav leagueId={league.id} active="results" />
       {myTeamId && <ScopeToggle basePath="results" leagueId={league.id} active={scope} />}
 
-      {!season && <p className="text-sm text-gray-600">No season scheduled yet.</p>}
-      {season && visible.length === 0 && <p className="text-sm text-gray-600">No results yet.</p>}
+      {!season && <p className="text-sm text-gray-600 dark:text-gray-400">No season scheduled yet.</p>}
+      {season && visible.length === 0 && (
+        <p className="text-sm text-gray-600 dark:text-gray-400">No results yet.</p>
+      )}
       {visible.length > 0 && (
         <table className="w-full border-collapse">
           <tbody>

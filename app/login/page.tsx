@@ -6,7 +6,7 @@ export default function LoginPage() {
     <div className="mx-auto max-w-sm py-16">
       <h1 className="mb-6 text-2xl font-semibold">Log in</h1>
       <LoginForm />
-      <p className="mt-6 text-sm text-gray-600">
+      <p className="mt-6 text-sm text-gray-600 dark:text-gray-400">
         New player?{' '}
         <Link href="/signup" className="underline">
           Sign up

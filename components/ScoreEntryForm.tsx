@@ -27,19 +27,22 @@ export function ScoreEntryForm({
         defaultValue={homeScore ?? undefined}
         required
         min={0}
-        className="w-16 rounded border border-gray-300 px-2 py-1"
+        className="w-16 rounded border border-gray-300 px-2 py-1 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
       />
-      <span className="text-gray-400">–</span>
+      <span className="text-gray-400 dark:text-gray-500">–</span>
       <input
         type="number"
         name="awayScore"
         defaultValue={awayScore ?? undefined}
         required
         min={0}
-        className="w-16 rounded border border-gray-300 px-2 py-1"
+        className="w-16 rounded border border-gray-300 px-2 py-1 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
       />
       <span className="w-32 truncate font-medium">{awayTeamName}</span>
-      <button type="submit" className="rounded bg-black px-3 py-1 text-white">
+      <button
+        type="submit"
+        className="rounded bg-black px-3 py-1 text-white dark:bg-white dark:text-black"
+      >
         Save
       </button>
     </form>

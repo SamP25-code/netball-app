@@ -7,7 +7,11 @@ export function SignupForm() {
   const [state, action, pending] = useActionState(requestSignup, undefined);
 
   if (state?.success) {
-    return <p className="text-sm text-gray-700">Check your email for a login link to finish signing up.</p>;
+    return (
+      <p className="text-sm text-gray-700 dark:text-gray-300">
+        Check your email for a login link to finish signing up.
+      </p>
+    );
   }
 
   return (
@@ -19,7 +23,7 @@ export function SignupForm() {
             type="text"
             name="firstName"
             required
-            className="rounded border border-gray-300 px-3 py-2"
+            className="rounded border border-gray-300 px-3 py-2 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
           />
         </label>
         <label className="flex flex-1 flex-col gap-1 text-sm">
@@ -28,7 +32,7 @@ export function SignupForm() {
             type="text"
             name="lastName"
             required
-            className="rounded border border-gray-300 px-3 py-2"
+            className="rounded border border-gray-300 px-3 py-2 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
           />
         </label>
       </div>
@@ -38,7 +42,7 @@ export function SignupForm() {
           type="email"
           name="email"
           required
-          className="rounded border border-gray-300 px-3 py-2"
+          className="rounded border border-gray-300 px-3 py-2 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
         />
       </label>
       <label className="flex flex-col gap-1 text-sm">
@@ -48,17 +52,17 @@ export function SignupForm() {
           name="reference"
           required
           placeholder="e.g. BBR-TUE-T1"
-          className="rounded border border-gray-300 px-3 py-2 uppercase"
+          className="rounded border border-gray-300 px-3 py-2 uppercase dark:border-gray-600 dark:bg-gray-900 dark:text-white"
         />
-        <span className="text-xs text-gray-500">
+        <span className="text-xs text-gray-500 dark:text-gray-400">
           Ask your captain if you don&apos;t know your team&apos;s reference code.
         </span>
       </label>
-      {state?.error && <p className="text-sm text-red-600">{state.error}</p>}
+      {state?.error && <p className="text-sm text-red-600 dark:text-red-400">{state.error}</p>}
       <button
         type="submit"
         disabled={pending}
-        className="rounded bg-black px-4 py-2 text-sm font-medium text-white disabled:opacity-50"
+        className="rounded bg-black px-4 py-2 text-sm font-medium text-white disabled:opacity-50 dark:bg-white dark:text-black"
       >
         {pending ? 'Sending link…' : 'Sign up'}
       </button>

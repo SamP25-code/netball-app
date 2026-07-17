@@ -26,7 +26,7 @@ export default async function FixturesPage({
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="text-2xl font-semibold">Fixtures</h1>
-        <p className="mt-4 text-sm text-gray-600">
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
           You&apos;re not linked to a team in this league.
         </p>
       </div>
@@ -53,8 +53,10 @@ export default async function FixturesPage({
       <LeagueNav leagueId={league.id} active="fixtures" />
       {myTeamId && <ScopeToggle basePath="fixtures" leagueId={league.id} active={scope} />}
 
-      {!season && <p className="text-sm text-gray-600">No season scheduled yet.</p>}
-      {season && visible.length === 0 && <p className="text-sm text-gray-600">No fixtures yet.</p>}
+      {!season && <p className="text-sm text-gray-600 dark:text-gray-400">No season scheduled yet.</p>}
+      {season && visible.length === 0 && (
+        <p className="text-sm text-gray-600 dark:text-gray-400">No fixtures yet.</p>
+      )}
       {visible.length > 0 && (
         <table className="w-full border-collapse">
           <tbody>

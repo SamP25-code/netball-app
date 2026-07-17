@@ -9,13 +9,13 @@ export function ScopeToggle({ basePath, leagueId, active }: Props) {
     <div className="mb-4 flex gap-3 text-sm">
       <Link
         href={`/${basePath}/${leagueId}?view=team`}
-        className={active === 'team' ? 'font-medium underline' : 'underline text-gray-500'}
+        className={active === 'team' ? 'font-medium underline' : 'underline text-gray-500 dark:text-gray-400'}
       >
         My Team
       </Link>
       <Link
         href={`/${basePath}/${leagueId}?view=league`}
-        className={active === 'league' ? 'font-medium underline' : 'underline text-gray-500'}
+        className={active === 'league' ? 'font-medium underline' : 'underline text-gray-500 dark:text-gray-400'}
       >
         League
       </Link>

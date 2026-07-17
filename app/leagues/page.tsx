@@ -18,7 +18,7 @@ export default async function LeaguesPage() {
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="mb-6 text-2xl font-semibold">Leagues</h1>
-        <p className="text-sm text-gray-600">You&apos;re not linked to a team yet.</p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">You&apos;re not linked to a team yet.</p>
       </div>
     );
   }
@@ -28,10 +28,10 @@ export default async function LeaguesPage() {
   return (
     <div className="mx-auto max-w-2xl py-10">
       <h1 className="mb-6 text-2xl font-semibold">Leagues</h1>
-      {leagues.length === 0 && <p className="text-sm text-gray-600">No leagues yet.</p>}
+      {leagues.length === 0 && <p className="text-sm text-gray-600 dark:text-gray-400">No leagues yet.</p>}
       <ul className="flex flex-col gap-2">
         {leagues.map((l) => (
-          <li key={l.id} className="rounded border border-gray-200 p-4">
+          <li key={l.id} className="rounded border border-gray-200 p-4 dark:border-gray-700">
             <div className="font-medium">{formatLeagueName(l)}</div>
             <div className="mt-2 flex gap-4 text-sm">
               <Link href={`/fixtures/${l.id}`} className="underline">

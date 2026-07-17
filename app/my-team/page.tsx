@@ -16,7 +16,7 @@ export default async function MyTeamPage() {
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="text-2xl font-semibold">My Team</h1>
-        <p className="mt-4 text-sm text-gray-600">
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
           You&apos;re not linked to a team yet. Sign up again with your team&apos;s reference code, or
           ask your captain.
         </p>
@@ -41,7 +41,7 @@ export default async function MyTeamPage() {
   return (
     <div className="mx-auto max-w-3xl py-10">
       <h1 className="text-2xl font-semibold">{team.name}</h1>
-      <p className="text-sm text-gray-600">{formatLeagueName(league)}</p>
+      <p className="text-sm text-gray-600 dark:text-gray-400">{formatLeagueName(league)}</p>
       <p className="mt-2">
         <Link href={`/teams/${team.id}`} className="text-sm underline">
           View team stats →
@@ -60,7 +60,7 @@ export default async function MyTeamPage() {
 
       <h2 className="mt-8 mb-2 text-lg font-semibold">Fixtures</h2>
       {fixtures.length === 0 ? (
-        <p className="text-sm text-gray-600">No fixtures yet.</p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">No fixtures yet.</p>
       ) : (
         <table className="w-full border-collapse">
           <tbody>

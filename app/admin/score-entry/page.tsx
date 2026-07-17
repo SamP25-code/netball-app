@@ -21,7 +21,7 @@ export default async function ScoreEntryPage({
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="text-2xl font-semibold">Score entry</h1>
-        <p className="mt-4 text-sm text-gray-600">
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
           Only Super Users can enter results — talk to your league admin if a score needs correcting.
         </p>
       </div>
@@ -52,7 +52,7 @@ export default async function ScoreEntryPage({
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="text-2xl font-semibold">Score entry</h1>
-        <p className="mt-4 text-sm text-gray-600">No season scheduled for this league yet.</p>
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">No season scheduled for this league yet.</p>
       </div>
     );
   }
@@ -62,10 +62,10 @@ export default async function ScoreEntryPage({
   return (
     <div className="mx-auto max-w-3xl py-10">
       <h1 className="text-2xl font-semibold">{formatLeagueName(league)} — Score entry</h1>
-      <div className="mt-6 flex flex-col divide-y divide-gray-100">
+      <div className="mt-6 flex flex-col divide-y divide-gray-100 dark:divide-gray-800">
         {fixtures.map((f) => (
           <div key={f.id} className="py-1">
-            <span className="mr-2 text-xs text-gray-400">
+            <span className="mr-2 text-xs text-gray-400 dark:text-gray-500">
               Wk {f.weekNumber} · {f.timeSlot}
             </span>
             <ScoreEntryForm
@@ -77,7 +77,9 @@ export default async function ScoreEntryPage({
             />
           </div>
         ))}
-        {fixtures.length === 0 && <p className="text-sm text-gray-600">No fixtures yet.</p>}
+        {fixtures.length === 0 && (
+          <p className="text-sm text-gray-600 dark:text-gray-400">No fixtures yet.</p>
+        )}
       </div>
     </div>
   );

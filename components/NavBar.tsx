@@ -6,7 +6,7 @@ export async function NavBar() {
   const user = await getCurrentUser();
 
   return (
-    <header className="border-b border-gray-200">
+    <header className="border-b border-gray-200 dark:border-gray-800">
       <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
         <Link href="/leagues" className="font-semibold">
           Netball League

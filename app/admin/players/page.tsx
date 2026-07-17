@@ -14,7 +14,9 @@ export default async function PlayersAdminPage() {
     return (
       <div className="mx-auto max-w-2xl py-10">
         <h1 className="text-2xl font-semibold">Manage players</h1>
-        <p className="mt-4 text-sm text-gray-600">Only Super Users can manage players.</p>
+        <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+          Only Super Users can manage players.
+        </p>
       </div>
     );
   }
@@ -35,7 +37,7 @@ export default async function PlayersAdminPage() {
       <h1 className="text-2xl font-semibold">Manage players</h1>
       <table className="mt-6 w-full border-collapse text-sm">
         <thead>
-          <tr className="border-b border-gray-300 text-left text-gray-500">
+          <tr className="border-b border-gray-300 text-left text-gray-500 dark:border-gray-600 dark:text-gray-400">
             <th className="py-2 pr-4">Player</th>
             <th className="py-2 pr-4">Current team</th>
             <th className="py-2 pr-4">Move to</th>
@@ -45,7 +47,7 @@ export default async function PlayersAdminPage() {
         </thead>
         <tbody>
           {memberships.map((m) => (
-            <tr key={m.id} className="border-b border-gray-100">
+            <tr key={m.id} className="border-b border-gray-100 dark:border-gray-800">
               <td className="py-2 pr-4">{m.user.displayName}</td>
               <td className="py-2 pr-4">
                 {m.team.name} — {formatLeagueName(m.team.league)}
@@ -56,7 +58,7 @@ export default async function PlayersAdminPage() {
                   <select
                     name="teamId"
                     defaultValue={m.teamId}
-                    className="rounded border border-gray-300 px-2 py-1"
+                    className="rounded border border-gray-300 px-2 py-1 dark:border-gray-600 dark:bg-gray-900 dark:text-white"
                   >
                     {leagues.map((l) => (
                       <optgroup key={l.id} label={formatLeagueName(l)}>
@@ -68,7 +70,10 @@ export default async function PlayersAdminPage() {
                       </optgroup>
                     ))}
                   </select>
-                  <button type="submit" className="rounded bg-black px-3 py-1 text-white">
+                  <button
+                    type="submit"
+                    className="rounded bg-black px-3 py-1 text-white dark:bg-white dark:text-black"
+                  >
                     Move
                   </button>
                 </form>
@@ -79,7 +84,7 @@ export default async function PlayersAdminPage() {
                   <input type="hidden" name="isCaptain" value={(!m.isCaptain).toString()} />
                   <button
                     type="submit"
-                    className="rounded border border-gray-300 px-3 py-1 whitespace-nowrap"
+                    className="rounded border border-gray-300 px-3 py-1 whitespace-nowrap dark:border-gray-600"
                   >
                     {m.isCaptain ? 'Remove Admin' : 'Make Admin'}
                   </button>
@@ -91,7 +96,7 @@ export default async function PlayersAdminPage() {
                   <input type="hidden" name="isAdmin" value={(!m.user.isAdmin).toString()} />
                   <button
                     type="submit"
-                    className="rounded border border-gray-300 px-3 py-1 whitespace-nowrap"
+                    className="rounded border border-gray-300 px-3 py-1 whitespace-nowrap dark:border-gray-600"
                   >
                     {m.user.isAdmin ? 'Remove Super User' : 'Make Super User'}
                   </button>
@@ -101,7 +106,7 @@ export default async function PlayersAdminPage() {
           ))}
           {memberships.length === 0 && (
             <tr>
-              <td colSpan={5} className="py-4 text-gray-600">
+              <td colSpan={5} className="py-4 text-gray-600 dark:text-gray-400">
                 No players yet.
               </td>
             </tr>

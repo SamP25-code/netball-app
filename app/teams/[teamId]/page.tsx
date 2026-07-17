@@ -33,7 +33,7 @@ export default async function TeamStatsPage({
   return (
     <div className="mx-auto max-w-2xl py-10">
       <h1 className="text-2xl font-semibold">{team.name}</h1>
-      <p className="text-sm text-gray-600">{formatLeagueName(team.league)}</p>
+      <p className="text-sm text-gray-600 dark:text-gray-400">{formatLeagueName(team.league)}</p>
 
       <dl className="mt-6 grid grid-cols-3 gap-4 text-center sm:grid-cols-6">
         {(
@@ -46,8 +46,8 @@ export default async function TeamStatsPage({
             ['Conceded', stats.conceded],
           ] as const
         ).map(([label, value]) => (
-          <div key={label} className="rounded border border-gray-200 p-3">
-            <dt className="text-xs text-gray-500">{label}</dt>
+          <div key={label} className="rounded border border-gray-200 p-3 dark:border-gray-700">
+            <dt className="text-xs text-gray-500 dark:text-gray-400">{label}</dt>
             <dd className="text-lg font-semibold">{value}</dd>
           </div>
         ))}

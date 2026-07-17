@@ -12,6 +12,26 @@ export function SignupForm() {
 
   return (
     <form action={action} className="flex flex-col gap-3">
+      <div className="flex gap-3">
+        <label className="flex flex-1 flex-col gap-1 text-sm">
+          First name
+          <input
+            type="text"
+            name="firstName"
+            required
+            className="rounded border border-gray-300 px-3 py-2"
+          />
+        </label>
+        <label className="flex flex-1 flex-col gap-1 text-sm">
+          Last name
+          <input
+            type="text"
+            name="lastName"
+            required
+            className="rounded border border-gray-300 px-3 py-2"
+          />
+        </label>
+      </div>
       <label className="flex flex-col gap-1 text-sm">
         Email
         <input

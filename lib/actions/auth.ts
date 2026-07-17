@@ -20,13 +20,15 @@ export async function requestSignup(
   _prevState: AuthActionState,
   formData: FormData,
 ): Promise<AuthActionState> {
+  const firstName = String(formData.get('firstName') ?? '').trim();
+  const lastName = String(formData.get('lastName') ?? '').trim();
   const email = String(formData.get('email') ?? '').trim();
   const reference = String(formData.get('reference') ?? '')
     .trim()
     .toUpperCase();
 
-  if (!email || !reference) {
-    return { error: 'Enter your email and your team reference code.' };
+  if (!firstName || !lastName || !email || !reference) {
+    return { error: 'Enter your first name, last name, email, and your team reference code.' };
   }
 
   const team = await db.team.findUnique({ where: { reference } });
@@ -40,6 +42,9 @@ export async function requestSignup(
     email,
     options: {
       emailRedirectTo: `${origin}/auth/callback?ref=${encodeURIComponent(reference)}`,
+      // Picked up by supabase/sync_auth_users.sql when the auth.users row is
+      // first created, becoming public.users.displayName.
+      data: { displayName: `${firstName} ${lastName}` },
     },
   });
 

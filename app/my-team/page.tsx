@@ -4,8 +4,11 @@ import { db } from '@/lib/db';
 import { getCurrentUser } from '@/lib/auth';
 import { getUserTeamMemberships } from '@/lib/teams';
 import { getLeagueWithCurrentSeasonFixtures } from '@/lib/league-view';
+import { getTeamActivationStatus } from '@/lib/availability';
 import { formatLeagueName } from '@/lib/format';
 import { FixtureRow } from '@/components/FixtureRow';
+import { ActivationCard } from '@/components/ActivationCard';
+import { AvailabilityPrompt } from '@/components/AvailabilityPrompt';
 
 export default async function MyTeamPage() {
   const user = await getCurrentUser();
@@ -38,6 +41,9 @@ export default async function MyTeamPage() {
     include: { user: true },
   });
 
+  const activationStatus = await getTeamActivationStatus(team.id);
+  const myResponse = activationStatus?.activation?.responses.find((r) => r.userId === user.id);
+
   return (
     <div className="mx-auto max-w-3xl py-10">
       <h1 className="text-2xl font-semibold">{team.name}</h1>
@@ -47,6 +53,34 @@ export default async function MyTeamPage() {
           View team stats →
         </Link>
       </p>
+
+      {membership.isCaptain && activationStatus && (
+        <ActivationCard
+          teamId={team.id}
+          opponentName={
+            activationStatus.fixture.homeTeamId === team.id
+              ? activationStatus.fixture.awayTeam.name
+              : activationStatus.fixture.homeTeam.name
+          }
+          weekNumber={activationStatus.fixture.weekNumber}
+          timeSlot={activationStatus.fixture.timeSlot}
+          eligible={activationStatus.eligible}
+          activation={activationStatus.activation}
+        />
+      )}
+
+      {activationStatus?.activation && (
+        <AvailabilityPrompt
+          activationId={activationStatus.activation.id}
+          opponentName={
+            activationStatus.fixture.homeTeamId === team.id
+              ? activationStatus.fixture.awayTeam.name
+              : activationStatus.fixture.homeTeam.name
+          }
+          weekNumber={activationStatus.fixture.weekNumber}
+          currentStatus={myResponse?.status}
+        />
+      )}
 
       <h2 className="mt-8 mb-2 text-lg font-semibold">Roster</h2>
       <ul className="text-sm">

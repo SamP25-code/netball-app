@@ -1,18 +1,11 @@
 'use server';
 
-import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { db } from '@/lib/db';
 import { createClient } from '@/lib/supabase/server';
+import { getOrigin } from '@/lib/origin';
 
 export type AuthActionState = { error?: string; success?: boolean } | undefined;
-
-async function getOrigin() {
-  const h = await headers();
-  const host = h.get('x-forwarded-host') ?? h.get('host');
-  const protocol = h.get('x-forwarded-proto') ?? 'https';
-  return `${protocol}://${host}`;
-}
 
 // Sign-up reuses each team's existing payment-reference code (e.g. "BBR-TUE-T1")
 // as its invite code — captains already know it, no separate invite system needed.

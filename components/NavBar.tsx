@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { getCurrentUser } from '@/lib/auth';
 import { logout } from '@/lib/actions/auth';
+import { getPendingResponsePrompt } from '@/lib/availability';
 
 export async function NavBar() {
   const user = await getCurrentUser();
+  const pending = user ? await getPendingResponsePrompt(user.id) : null;
 
   return (
     <header className="border-b border-gray-200 dark:border-gray-800">
@@ -20,7 +22,7 @@ export async function NavBar() {
           </Link>
           {user && (
             <Link href="/my-team" className="underline">
-              My Team
+              My Team{pending ? ' 🔔' : ''}
             </Link>
           )}
           {user?.isAdmin && (

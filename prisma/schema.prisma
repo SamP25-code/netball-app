@@ -20,8 +20,10 @@ model User {
   isAdmin     Boolean  @default(false)
   createdAt   DateTime @default(now())
 
-  memberships     TeamMembership[]
-  enteredFixtures Fixture[]        @relation("EnteredByUser")
+  memberships           TeamMembership[]
+  enteredFixtures       Fixture[]                     @relation("EnteredByUser")
+  activatedFixtures     FixtureActivation[]           @relation("ActivatedByUser")
+  availabilityResponses FixtureAvailabilityResponse[]
 
   @@map("users")
 }
@@ -67,10 +69,11 @@ model Team {
   reference String  @unique
   weeklyFee Decimal @db.Decimal(6, 2)
 
-  league       League           @relation(fields: [leagueId], references: [id])
+  league       League              @relation(fields: [leagueId], references: [id])
   memberships  TeamMembership[]
-  homeFixtures Fixture[]        @relation("HomeTeam")
-  awayFixtures Fixture[]        @relation("AwayTeam")
+  homeFixtures Fixture[]           @relation("HomeTeam")
+  awayFixtures Fixture[]           @relation("AwayTeam")
+  activations  FixtureActivation[]
 
   @@map("teams")
 }
@@ -114,13 +117,53 @@ model Fixture {
   enteredByUserId String?       @db.Uuid
   enteredAt       DateTime?
 
-  season        Season @relation(fields: [seasonId], references: [id])
-  homeTeam      Team   @relation("HomeTeam", fields: [homeTeamId], references: [id])
-  awayTeam      Team   @relation("AwayTeam", fields: [awayTeamId], references: [id])
-  enteredByUser User?  @relation("EnteredByUser", fields: [enteredByUserId], references: [id])
+  season        Season              @relation(fields: [seasonId], references: [id])
+  homeTeam      Team                @relation("HomeTeam", fields: [homeTeamId], references: [id])
+  awayTeam      Team                @relation("AwayTeam", fields: [awayTeamId], references: [id])
+  enteredByUser User?               @relation("EnteredByUser", fields: [enteredByUserId], references: [id])
+  activations   FixtureActivation[]
 
   @@unique([seasonId, weekNumber, homeTeamId, awayTeamId])
   @@map("fixtures")
+}
+
+enum AvailabilityStatus {
+  AVAILABLE
+  UNAVAILABLE
+  UNSURE
+}
+
+// A captain "activating" a fixture for their own team's availability
+// check-in — scoped per (fixture, team), not per fixture, since the home and
+// away captains manage their own squads independently of each other.
+model FixtureActivation {
+  id                String   @id @default(uuid()) @db.Uuid
+  fixtureId         String   @db.Uuid
+  teamId            String   @db.Uuid
+  activatedByUserId String   @db.Uuid
+  activatedAt       DateTime @default(now())
+
+  fixture         Fixture                       @relation(fields: [fixtureId], references: [id])
+  team            Team                          @relation(fields: [teamId], references: [id])
+  activatedByUser User                          @relation("ActivatedByUser", fields: [activatedByUserId], references: [id])
+  responses       FixtureAvailabilityResponse[]
+
+  @@unique([fixtureId, teamId])
+  @@map("fixture_activations")
+}
+
+model FixtureAvailabilityResponse {
+  id           String             @id @default(uuid()) @db.Uuid
+  activationId String             @db.Uuid
+  userId       String             @db.Uuid
+  status       AvailabilityStatus
+  respondedAt  DateTime           @default(now())
+
+  activation FixtureActivation @relation(fields: [activationId], references: [id])
+  user       User              @relation(fields: [userId], references: [id])
+
+  @@unique([activationId, userId])
+  @@map("fixture_availability_responses")
 }
 
 // Not yet built — phase 2 (Captain-led substitute request system). Left as a

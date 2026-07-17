@@ -1,0 +1,199 @@
+{
+  "league": "Darwen Wednesday 8-Team",
+  "location": "Darwen",
+  "day": "Wednesday",
+  "teams": [
+    "Shooting Stars",
+    "Net Setters",
+    "Sweaty Bettys",
+    "Hoop There It Is",
+    "The Enthusiastics",
+    "Mother of Balls",
+    "Pitch Slap",
+    "Court Queens"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoop There It Is",
+          "away": "Pitch Slap"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "The Enthusiastics",
+          "away": "Mother of Balls"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Sweaty Bettys",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Shooting Stars",
+          "away": "Net Setters"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Shooting Stars",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Net Setters",
+          "away": "Pitch Slap"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hoop There It Is",
+          "away": "The Enthusiastics"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Sweaty Bettys",
+          "away": "Mother of Balls"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Net Setters",
+          "away": "Sweaty Bettys"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Shooting Stars",
+          "away": "Mother of Balls"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pitch Slap",
+          "away": "The Enthusiastics"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Queens",
+          "away": "Hoop There It Is"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "The Enthusiastics",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hoop There It Is",
+          "away": "Net Setters"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Shooting Stars",
+          "away": "Sweaty Bettys"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Mother of Balls",
+          "away": "Pitch Slap"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Shooting Stars",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "The Enthusiastics",
+          "away": "Sweaty Bettys"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Mother of Balls",
+          "away": "Net Setters"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pitch Slap",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Net Setters",
+          "away": "The Enthusiastics"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Shooting Stars",
+          "away": "Pitch Slap"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Court Queens",
+          "away": "Mother of Balls"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Sweaty Bettys",
+          "away": "Hoop There It Is"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Mother of Balls",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Net Setters"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pitch Slap",
+          "away": "Sweaty Bettys"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Shooting Stars",
+          "away": "The Enthusiastics"
+        }
+      ]
+    }
+  ]
+}

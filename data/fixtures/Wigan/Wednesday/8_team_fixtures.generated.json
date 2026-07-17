@@ -1,0 +1,199 @@
+{
+  "league": "Wigan Wednesday 8-Team",
+  "location": "Wigan",
+  "day": "Wednesday",
+  "teams": [
+    "Court Jesters",
+    "Goal Getters",
+    "Netball Mermaids",
+    "Lady Legends",
+    "Hawkley Hawks",
+    "Hot Shots",
+    "High Hoops",
+    "Court Queens"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Lady Legends",
+          "away": "Hawkley Hawks"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Netball Mermaids",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Getters",
+          "away": "High Hoops"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Jesters",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Jesters",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Lady Legends",
+          "away": "High Hoops"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hawkley Hawks",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netball Mermaids",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Goal Getters",
+          "away": "Hawkley Hawks"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Court Jesters",
+          "away": "High Hoops"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netball Mermaids",
+          "away": "Lady Legends"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "High Hoops",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Jesters",
+          "away": "Lady Legends"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hawkley Hawks",
+          "away": "Netball Mermaids"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Hot Shots",
+          "away": "Goal Getters"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "High Hoops",
+          "away": "Netball Mermaids"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hot Shots",
+          "away": "Lady Legends"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Jesters",
+          "away": "Hawkley Hawks"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Lady Legends",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Jesters",
+          "away": "Netball Mermaids"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hawkley Hawks",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Hot Shots",
+          "away": "High Hoops"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Jesters",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Lady Legends"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Getters",
+          "away": "Netball Mermaids"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "High Hoops",
+          "away": "Hawkley Hawks"
+        }
+      ]
+    }
+  ]
+}

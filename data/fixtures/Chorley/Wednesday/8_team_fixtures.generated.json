@@ -1,0 +1,199 @@
+{
+  "league": "Chorley Wednesday 8-Team",
+  "location": "Chorley",
+  "day": "Wednesday",
+  "teams": [
+    "Court Queens",
+    "Goal Diggers",
+    "Game of Throws",
+    "Golden Goals",
+    "Winging It",
+    "Wanderballs",
+    "Net Ninjas",
+    "Slay Queens"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Golden Goals"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Winging It",
+          "away": "Game of Throws"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Wanderballs",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Ninjas",
+          "away": "Slay Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goal Diggers",
+          "away": "Game of Throws"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Slay Queens",
+          "away": "Golden Goals"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Ninjas",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Queens",
+          "away": "Wanderballs"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Wanderballs",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Golden Goals",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Court Queens",
+          "away": "Game of Throws"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Winging It",
+          "away": "Slay Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Slay Queens",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Net Ninjas",
+          "away": "Game of Throws"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Wanderballs",
+          "away": "Golden Goals"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Queens",
+          "away": "Winging It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Golden Goals",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Slay Queens"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Diggers",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Game of Throws",
+          "away": "Wanderballs"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Winging It",
+          "away": "Wanderballs"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Game of Throws",
+          "away": "Slay Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Golden Goals",
+          "away": "Net Ninjas"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Slay Queens",
+          "away": "Wanderballs"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Diggers",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Game of Throws",
+          "away": "Golden Goals"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "league": "Chorley Monday 8-Team",
+  "location": "Chorley",
+  "day": "Monday",
+  "teams": [
+    "Netsetters",
+    "All Stars",
+    "Vortex",
+    "Hot Shots",
+    "Winging It",
+    "Netchicks",
+    "Basket Hounds",
+    "Spice Goals"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Vortex",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "All Stars",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Netsetters",
+          "away": "Basket Hounds"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Spice Goals",
+          "away": "Netchicks"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netchicks",
+          "away": "All Stars"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Netsetters",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Winging It",
+          "away": "Vortex"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Basket Hounds",
+          "away": "Spice Goals"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Basket Hounds",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Netsetters",
+          "away": "Netchicks"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Spice Goals",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "All Stars",
+          "away": "Vortex"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netsetters",
+          "away": "Vortex"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Winging It",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hot Shots",
+          "away": "All Stars"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netchicks",
+          "away": "Basket Hounds"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netsetters",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "All Stars",
+          "away": "Basket Hounds"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Vortex",
+          "away": "Netchicks"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Hot Shots",
+          "away": "Winging It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netchicks",
+          "away": "Hot Shots"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Basket Hounds",
+          "away": "Vortex"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Spice Goals",
+          "away": "All Stars"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netsetters",
+          "away": "Winging It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hot Shots",
+          "away": "Basket Hounds"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Vortex",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Winging It",
+          "away": "Netchicks"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netsetters",
+          "away": "All Stars"
+        }
+      ]
+    }
+  ]
+}

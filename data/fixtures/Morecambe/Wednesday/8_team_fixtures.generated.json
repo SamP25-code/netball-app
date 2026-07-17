@@ -1,0 +1,199 @@
+{
+  "league": "Morecambe Wednesday 8-Team",
+  "location": "Morecambe",
+  "day": "Wednesday",
+  "teams": [
+    "Valkryies",
+    "Block It Like Its Hot",
+    "Bay Breakers",
+    "Accidental Athletes",
+    "Court Queens",
+    "Coastal Comets",
+    "Goalden Girls",
+    "Pass and Sass"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Pass and Sass"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Valkryies",
+          "away": "Bay Breakers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Coastal Comets",
+          "away": "Goalden Girls"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Accidental Athletes",
+          "away": "Block It Like Its Hot"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Valkryies",
+          "away": "Block It Like Its Hot"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Accidental Athletes",
+          "away": "Goalden Girls"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Bay Breakers",
+          "away": "Pass and Sass"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Queens",
+          "away": "Coastal Comets"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goalden Girls",
+          "away": "Pass and Sass"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Coastal Comets",
+          "away": "Block It Like Its Hot"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Court Queens",
+          "away": "Bay Breakers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Valkryies",
+          "away": "Accidental Athletes"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Coastal Comets",
+          "away": "Accidental Athletes"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Goalden Girls",
+          "away": "Bay Breakers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Valkryies",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pass and Sass",
+          "away": "Block It Like Its Hot"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Bay Breakers",
+          "away": "Accidental Athletes"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pass and Sass",
+          "away": "Coastal Comets"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Block It Like Its Hot",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Valkryies",
+          "away": "Goalden Girls"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Valkryies",
+          "away": "Coastal Comets"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Block It Like Its Hot",
+          "away": "Bay Breakers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pass and Sass",
+          "away": "Accidental Athletes"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Goalden Girls",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Block It Like Its Hot",
+          "away": "Goalden Girls"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Accidental Athletes",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Valkryies",
+          "away": "Pass and Sass"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Bay Breakers",
+          "away": "Coastal Comets"
+        }
+      ]
+    }
+  ]
+}

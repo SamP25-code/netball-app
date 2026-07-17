@@ -1,0 +1,199 @@
+{
+  "league": "Chorley Tuesday 8-Team",
+  "location": "Chorley",
+  "day": "Tuesday",
+  "teams": [
+    "Pass & Sass",
+    "Hoop There It Is",
+    "Tena Ladies",
+    "The Rusty Rockets",
+    "Net Ninjas",
+    "Pocket Rockets",
+    "Netball Queens",
+    "Netty Bettys"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoop There It Is",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Netty Bettys",
+          "away": "Pocket Rockets"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pass & Sass",
+          "away": "Netball Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Tena Ladies",
+          "away": "The Rusty Rockets"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netball Queens",
+          "away": "Netty Bettys"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pass & Sass",
+          "away": "The Rusty Rockets"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pocket Rockets",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Ninjas",
+          "away": "Tena Ladies"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Pass & Sass",
+          "away": "Tena Ladies"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pocket Rockets",
+          "away": "Netball Queens"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "The Rusty Rockets",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Ninjas",
+          "away": "Netty Bettys"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Pocket Rockets",
+          "away": "The Rusty Rockets"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Netball Queens",
+          "away": "Tena Ladies"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pass & Sass",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netty Bettys",
+          "away": "Hoop There It Is"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netball Queens",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hoop There It Is",
+          "away": "Tena Ladies"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Netty Bettys",
+          "away": "The Rusty Rockets"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pass & Sass",
+          "away": "Pocket Rockets"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Pass & Sass",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Net Ninjas",
+          "away": "Pocket Rockets"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Tena Ladies",
+          "away": "Netty Bettys"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "The Rusty Rockets",
+          "away": "Netball Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Tena Ladies",
+          "away": "Pocket Rockets"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pass & Sass",
+          "away": "Netty Bettys"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "The Rusty Rockets",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Hoop There It Is",
+          "away": "Netball Queens"
+        }
+      ]
+    }
+  ]
+}

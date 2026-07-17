@@ -1,0 +1,199 @@
+{
+  "league": "Northwich Monday 8-Team",
+  "location": "Northwich",
+  "day": "Monday",
+  "teams": [
+    "Naughty Netters",
+    "Flaming Flamingos",
+    "Goal Getters",
+    "Block It Like Its Hot",
+    "Net Set Glow",
+    "Hashtag Goals",
+    "Thundercats",
+    "Sweaty Nettys"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Naughty Netters",
+          "away": "Net Set Glow"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Sweaty Nettys",
+          "away": "Flaming Flamingos"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hashtag Goals",
+          "away": "Block It Like Its Hot"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Thundercats",
+          "away": "Goal Getters"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hashtag Goals",
+          "away": "Thundercats"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Naughty Netters",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Set Glow",
+          "away": "Sweaty Nettys"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Block It Like Its Hot",
+          "away": "Flaming Flamingos"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Flaming Flamingos",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Thundercats",
+          "away": "Net Set Glow"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Naughty Netters",
+          "away": "Hashtag Goals"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Sweaty Nettys",
+          "away": "Block It Like Its Hot"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Naughty Netters",
+          "away": "Block It Like Its Hot"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hashtag Goals",
+          "away": "Flaming Flamingos"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Thundercats",
+          "away": "Sweaty Nettys"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Set Glow",
+          "away": "Goal Getters"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Flaming Flamingos",
+          "away": "Net Set Glow"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Naughty Netters",
+          "away": "Thundercats"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Getters",
+          "away": "Block It Like Its Hot"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Sweaty Nettys",
+          "away": "Hashtag Goals"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Naughty Netters",
+          "away": "Sweaty Nettys"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Block It Like Its Hot",
+          "away": "Net Set Glow"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Getters",
+          "away": "Hashtag Goals"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Flaming Flamingos",
+          "away": "Thundercats"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Block It Like Its Hot",
+          "away": "Thundercats"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Goal Getters",
+          "away": "Sweaty Nettys"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Naughty Netters",
+          "away": "Flaming Flamingos"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Set Glow",
+          "away": "Hashtag Goals"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "league": "Southport Thursday 10-Team",
+  "location": "Southport",
+  "day": "Thursday",
+  "teams": [
+    "Balls of Fury",
+    "Hoops I Did It Again",
+    "Shooting Stars",
+    "Wildcats",
+    "Net Smashers",
+    "Court Queens",
+    "Southport Saints",
+    "Ball Blasters",
+    "Net Ninjas",
+    "Goal Getters"
+  ],
+  "timeSlots": [
+    "6:30pm",
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Balls of Fury",
+          "away": "Shooting Stars"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Southport Saints",
+          "away": "Ball Blasters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Smashers",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Wildcats",
+          "away": "Hoops I Did It Again"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Southport Saints",
+          "away": "Net Smashers"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Net Ninjas",
+          "away": "Shooting Stars"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Ball Blasters",
+          "away": "Wildcats"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Balls of Fury",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Goal Getters",
+          "away": "Hoops I Did It Again"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Balls of Fury",
+          "away": "Hoops I Did It Again"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Southport Saints"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Shooting Stars",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Smashers",
+          "away": "Ball Blasters"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Wildcats",
+          "away": "Net Ninjas"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Southport Saints",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Balls of Fury",
+          "away": "Wildcats"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Hoops I Did It Again"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Ball Blasters",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Smashers",
+          "away": "Shooting Stars"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Hoops I Did It Again",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Net Smashers",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Balls of Fury",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Wildcats",
+          "away": "Southport Saints"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Shooting Stars",
+          "away": "Ball Blasters"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Goal Getters",
+          "away": "Ball Blasters"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoops I Did It Again",
+          "away": "Southport Saints"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Wildcats",
+          "away": "Net Smashers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Shooting Stars",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Balls of Fury",
+          "away": "Net Ninjas"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Net Ninjas",
+          "away": "Net Smashers"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goal Getters",
+          "away": "Wildcats"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Balls of Fury",
+          "away": "Southport Saints"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hoops I Did It Again",
+          "away": "Shooting Stars"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Ball Blasters",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 8,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Shooting Stars",
+          "away": "Wildcats"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Balls of Fury",
+          "away": "Ball Blasters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hoops I Did It Again",
+          "away": "Net Smashers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Ninjas",
+          "away": "Southport Saints"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Goal Getters",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Court Queens",
+          "away": "Wildcats"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Net Ninjas",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Southport Saints",
+          "away": "Shooting Stars"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Ball Blasters",
+          "away": "Hoops I Did It Again"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Balls of Fury",
+          "away": "Net Smashers"
+        }
+      ]
+    }
+  ]
+}

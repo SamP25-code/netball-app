@@ -1,0 +1,121 @@
+{
+  "league": "Wakefield Wednesday 6-Team",
+  "location": "Wakefield",
+  "day": "Wednesday",
+  "teams": [
+    "Wing It",
+    "Hoops We Did it Again",
+    "Net Ninjas",
+    "Peaky Ballers",
+    "Flex The Net",
+    "Court Breakers"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Wing It",
+          "away": "Flex The Net"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Breakers",
+          "away": "Peaky Ballers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hoops We Did it Again",
+          "away": "Net Ninjas"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Net Ninjas",
+          "away": "Court Breakers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Wing It",
+          "away": "Hoops We Did it Again"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Peaky Ballers",
+          "away": "Flex The Net"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Peaky Ballers",
+          "away": "Hoops We Did it Again"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Flex The Net",
+          "away": "Court Breakers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Wing It",
+          "away": "Net Ninjas"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoops We Did it Again",
+          "away": "Flex The Net"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Net Ninjas",
+          "away": "Peaky Ballers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Wing It",
+          "away": "Court Breakers"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Wing It",
+          "away": "Peaky Ballers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Flex The Net",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Court Breakers",
+          "away": "Hoops We Did it Again"
+        }
+      ]
+    }
+  ]
+}

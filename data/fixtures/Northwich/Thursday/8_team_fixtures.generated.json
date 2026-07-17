@@ -1,0 +1,199 @@
+{
+  "league": "Northwich Thursday 8-Team",
+  "location": "Northwich",
+  "day": "Thursday",
+  "teams": [
+    "Pivotal Moments",
+    "Hungry Hippos",
+    "Nets Top Models",
+    "Goalden Girls",
+    "Pink Ponies",
+    "Hoop There It Is",
+    "Lets Wing It",
+    "Spice Goals"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Nets Top Models",
+          "away": "Goalden Girls"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hungry Hippos",
+          "away": "Pink Ponies"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Spice Goals",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pivotal Moments",
+          "away": "Lets Wing It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Spice Goals",
+          "away": "Hungry Hippos"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hoop There It Is",
+          "away": "Goalden Girls"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pivotal Moments",
+          "away": "Pink Ponies"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Lets Wing It",
+          "away": "Nets Top Models"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Pivotal Moments",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Lets Wing It",
+          "away": "Pink Ponies"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hungry Hippos",
+          "away": "Nets Top Models"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Spice Goals",
+          "away": "Goalden Girls"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Lets Wing It",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pivotal Moments",
+          "away": "Goalden Girls"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hoop There It Is",
+          "away": "Hungry Hippos"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pink Ponies",
+          "away": "Nets Top Models"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoop There It Is",
+          "away": "Lets Wing It"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pivotal Moments",
+          "away": "Nets Top Models"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pink Ponies",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Goalden Girls",
+          "away": "Hungry Hippos"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goalden Girls",
+          "away": "Pink Ponies"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Nets Top Models",
+          "away": "Hoop There It Is"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Hungry Hippos",
+          "away": "Lets Wing It"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pivotal Moments",
+          "away": "Spice Goals"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Pivotal Moments",
+          "away": "Hungry Hippos"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Nets Top Models",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goalden Girls",
+          "away": "Lets Wing It"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Pink Ponies",
+          "away": "Hoop There It Is"
+        }
+      ]
+    }
+  ]
+}

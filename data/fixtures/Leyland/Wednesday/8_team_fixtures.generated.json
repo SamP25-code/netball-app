@@ -1,0 +1,199 @@
+{
+  "league": "Leyland Wednesday 8-Team",
+  "location": "Leyland",
+  "day": "Wednesday",
+  "teams": [
+    "Shooting Divas",
+    "Goal Getters",
+    "Spice Goals",
+    "Balls of Chaos",
+    "Ball or Nothing",
+    "Victorious Secret",
+    "Absolute Ballers",
+    "Team Salsar"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Ball or Nothing",
+          "away": "Victorious Secret"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Balls of Chaos",
+          "away": "Absolute Ballers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Shooting Divas",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Spice Goals",
+          "away": "Team Salsar"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goal Getters",
+          "away": "Absolute Ballers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Spice Goals",
+          "away": "Victorious Secret"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Balls of Chaos",
+          "away": "Ball or Nothing"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Shooting Divas",
+          "away": "Team Salsar"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Team Salsar",
+          "away": "Balls of Chaos"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Goal Getters",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Absolute Ballers",
+          "away": "Ball or Nothing"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Shooting Divas",
+          "away": "Victorious Secret"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Shooting Divas",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Ball or Nothing",
+          "away": "Team Salsar"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Victorious Secret",
+          "away": "Absolute Ballers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Balls of Chaos",
+          "away": "Goal Getters"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Absolute Ballers",
+          "away": "Spice Goals"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Shooting Divas",
+          "away": "Ball or Nothing"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Team Salsar",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Victorious Secret",
+          "away": "Balls of Chaos"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Victorious Secret",
+          "away": "Goal Getters"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Absolute Ballers",
+          "away": "Team Salsar"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Shooting Divas",
+          "away": "Balls of Chaos"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Ball or Nothing",
+          "away": "Spice Goals"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Shooting Divas",
+          "away": "Absolute Ballers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Spice Goals",
+          "away": "Balls of Chaos"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Team Salsar",
+          "away": "Victorious Secret"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Goal Getters",
+          "away": "Ball or Nothing"
+        }
+      ]
+    }
+  ]
+}

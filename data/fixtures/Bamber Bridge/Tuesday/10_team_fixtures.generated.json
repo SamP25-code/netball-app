@@ -1,0 +1,297 @@
+{
+  "league": "Bamber Bridge Tuesday 10-Team",
+  "location": "Bamber Bridge",
+  "day": "Tuesday",
+  "teams": [
+    "Zandras Zwans",
+    "Pink Panthers",
+    "Netslayers",
+    "Bamber Blitz",
+    "Dead Centre",
+    "Just For Fun",
+    "Winging It",
+    "Match Makers",
+    "Golden Hoops",
+    "Honeybees"
+  ],
+  "timeSlots": [
+    "6:30pm",
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Zandras Zwans",
+          "away": "Just For Fun"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Golden Hoops",
+          "away": "Netslayers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Match Makers",
+          "away": "Bamber Blitz"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Winging It",
+          "away": "Dead Centre"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Honeybees",
+          "away": "Pink Panthers"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Zandras Zwans",
+          "away": "Honeybees"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Bamber Blitz",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Dead Centre",
+          "away": "Just For Fun"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Pink Panthers",
+          "away": "Golden Hoops"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netslayers",
+          "away": "Match Makers"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Winging It",
+          "away": "Netslayers"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Match Makers",
+          "away": "Pink Panthers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Golden Hoops",
+          "away": "Honeybees"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Just For Fun",
+          "away": "Bamber Blitz"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Zandras Zwans",
+          "away": "Dead Centre"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Just For Fun",
+          "away": "Pink Panthers"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Dead Centre",
+          "away": "Netslayers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Winging It",
+          "away": "Honeybees"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Match Makers",
+          "away": "Golden Hoops"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Zandras Zwans",
+          "away": "Bamber Blitz"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Bamber Blitz",
+          "away": "Dead Centre"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Zandras Zwans",
+          "away": "Golden Hoops"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pink Panthers",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Netslayers",
+          "away": "Just For Fun"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Honeybees",
+          "away": "Match Makers"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Dead Centre",
+          "away": "Honeybees"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Bamber Blitz",
+          "away": "Pink Panthers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Zandras Zwans",
+          "away": "Netslayers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Winging It",
+          "away": "Match Makers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Just For Fun",
+          "away": "Golden Hoops"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Bamber Blitz",
+          "away": "Golden Hoops"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netslayers",
+          "away": "Honeybees"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Dead Centre",
+          "away": "Match Makers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Zandras Zwans",
+          "away": "Pink Panthers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Just For Fun",
+          "away": "Winging It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 8,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Pink Panthers",
+          "away": "Netslayers"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Match Makers",
+          "away": "Just For Fun"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Zandras Zwans",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Honeybees",
+          "away": "Bamber Blitz"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Golden Hoops",
+          "away": "Dead Centre"
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Golden Hoops",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Honeybees",
+          "away": "Just For Fun"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pink Panthers",
+          "away": "Dead Centre"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Zandras Zwans",
+          "away": "Match Makers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netslayers",
+          "away": "Bamber Blitz"
+        }
+      ]
+    }
+  ]
+}

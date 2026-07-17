@@ -1,0 +1,297 @@
+{
+  "league": "Penwortham Monday 10-Team",
+  "location": "Penwortham",
+  "day": "Monday",
+  "teams": [
+    "Bib Baddies",
+    "Nets Top Models",
+    "Court Queens",
+    "Hoopsy Daisy",
+    "Netball Nuns",
+    "Kiss My Pass",
+    "Deez Nets",
+    "Net Ninjas",
+    "Basket Cases",
+    "Ballbarians"
+  ],
+  "timeSlots": [
+    "6:30pm",
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Deez Nets",
+          "away": "Netball Nuns"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Ballbarians",
+          "away": "Nets Top Models"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Bib Baddies",
+          "away": "Kiss My Pass"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Basket Cases",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Ninjas",
+          "away": "Hoopsy Daisy"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Basket Cases",
+          "away": "Ballbarians"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Bib Baddies",
+          "away": "Netball Nuns"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Deez Nets",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Ninjas",
+          "away": "Nets Top Models"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Kiss My Pass",
+          "away": "Hoopsy Daisy"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Nets Top Models",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Bib Baddies",
+          "away": "Deez Nets"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Basket Cases",
+          "away": "Netball Nuns"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Ballbarians",
+          "away": "Hoopsy Daisy"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Ninjas",
+          "away": "Kiss My Pass"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Bib Baddies",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Hoopsy Daisy"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Ballbarians",
+          "away": "Kiss My Pass"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Nets Top Models",
+          "away": "Netball Nuns"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Basket Cases",
+          "away": "Deez Nets"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Bib Baddies",
+          "away": "Court Queens"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Kiss My Pass",
+          "away": "Basket Cases"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hoopsy Daisy",
+          "away": "Nets Top Models"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Deez Nets",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netball Nuns",
+          "away": "Ballbarians"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Hoopsy Daisy",
+          "away": "Deez Nets"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Queens",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Nets Top Models",
+          "away": "Basket Cases"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Netball Nuns",
+          "away": "Kiss My Pass"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Bib Baddies",
+          "away": "Ballbarians"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Kiss My Pass",
+          "away": "Nets Top Models"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Deez Nets",
+          "away": "Ballbarians"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Net Ninjas",
+          "away": "Basket Cases"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Bib Baddies",
+          "away": "Hoopsy Daisy"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netball Nuns",
+          "away": "Court Queens"
+        }
+      ]
+    },
+    {
+      "weekNumber": 8,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Ballbarians",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoopsy Daisy",
+          "away": "Netball Nuns"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Queens",
+          "away": "Kiss My Pass"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Bib Baddies",
+          "away": "Basket Cases"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Nets Top Models",
+          "away": "Deez Nets"
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "games": [
+        {
+          "timeSlot": "6:30pm",
+          "home": "Hoopsy Daisy",
+          "away": "Basket Cases"
+        },
+        {
+          "timeSlot": "7:00pm",
+          "home": "Kiss My Pass",
+          "away": "Deez Nets"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Netball Nuns",
+          "away": "Net Ninjas"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Court Queens",
+          "away": "Ballbarians"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Bib Baddies",
+          "away": "Nets Top Models"
+        }
+      ]
+    }
+  ]
+}

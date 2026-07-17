@@ -1,0 +1,147 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Mirrors auth.users row-for-row (id matches Supabase's auth.users.id via a
+// DB trigger) — this is the app-facing profile, not the auth record itself.
+model User {
+  id          String   @id @db.Uuid
+  email       String   @unique
+  displayName String
+  phone       String?
+  isAdmin     Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  memberships     TeamMembership[]
+  enteredFixtures Fixture[]        @relation("EnteredByUser")
+
+  @@map("users")
+}
+
+// Static identity of a league: venue + day + team-count. Does not change
+// season to season — teams and fixtures roll over underneath it.
+model League {
+  id        String   @id @default(uuid()) @db.Uuid
+  name      String   @unique
+  location  String
+  day       String
+  timeSlots String[]
+  createdAt DateTime @default(now())
+
+  teams   Team[]
+  seasons Season[]
+
+  @@map("leagues")
+}
+
+// A league runs in seasons: once every fixture in the current season is
+// played, the same teams start again the following week with a freshly
+// shuffled schedule under a new Season row. See Home-Project/lib/generateSchedule.js
+// (--season flag) for how each season's fixture list is generated.
+model Season {
+  id           String   @id @default(uuid()) @db.Uuid
+  leagueId     String   @db.Uuid
+  seasonNumber Int
+  seasonStart  DateTime @db.Date
+  createdAt    DateTime @default(now())
+
+  league   League    @relation(fields: [leagueId], references: [id])
+  fixtures Fixture[]
+
+  @@unique([leagueId, seasonNumber])
+  @@map("seasons")
+}
+
+model Team {
+  id        String  @id @default(uuid()) @db.Uuid
+  leagueId  String  @db.Uuid
+  name      String
+  reference String  @unique
+  weeklyFee Decimal @db.Decimal(6, 2)
+
+  league       League           @relation(fields: [leagueId], references: [id])
+  memberships  TeamMembership[]
+  homeFixtures Fixture[]        @relation("HomeTeam")
+  awayFixtures Fixture[]        @relation("AwayTeam")
+
+  @@map("teams")
+}
+
+// isCaptain is team-scoped, not global — a captain has authority over their
+// own team's scores/sub-requests regardless of League-wide admin status.
+// This is also the exact flag the future sub-request/notification system
+// (Captain broadcasts a sub request; eligible players get notified) keys off.
+model TeamMembership {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  teamId    String   @db.Uuid
+  isCaptain Boolean  @default(false)
+  joinedAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+  team Team @relation(fields: [teamId], references: [id])
+
+  @@unique([userId, teamId])
+  @@map("team_memberships")
+}
+
+enum FixtureStatus {
+  SCHEDULED
+  PLAYED
+  POSTPONED
+  CANCELLED
+}
+
+model Fixture {
+  id              String        @id @default(uuid()) @db.Uuid
+  seasonId        String        @db.Uuid
+  weekNumber      Int
+  date            DateTime      @db.Date
+  timeSlot        String
+  homeTeamId      String        @db.Uuid
+  awayTeamId      String        @db.Uuid
+  homeScore       Int?
+  awayScore       Int?
+  status          FixtureStatus @default(SCHEDULED)
+  enteredByUserId String?       @db.Uuid
+  enteredAt       DateTime?
+
+  season        Season @relation(fields: [seasonId], references: [id])
+  homeTeam      Team   @relation("HomeTeam", fields: [homeTeamId], references: [id])
+  awayTeam      Team   @relation("AwayTeam", fields: [awayTeamId], references: [id])
+  enteredByUser User?  @relation("EnteredByUser", fields: [enteredByUserId], references: [id])
+
+  @@unique([seasonId, weekNumber, homeTeamId, awayTeamId])
+  @@map("fixtures")
+}
+
+// Not yet built — phase 2 (Captain-led substitute request system). Left as a
+// comment, not a migrated model, so the schema above stays exactly what the
+// MVP needs. Sketch, for when that phase starts:
+//
+// model AvailabilityPreference {
+//   id         String  @id @default(uuid()) @db.Uuid
+//   userId     String  @db.Uuid
+//   dayOfWeek  String
+//   timeFrom   String
+//   timeTo     String
+//   isRecurring Boolean @default(true)
+// }
+//
+// model SubRequest {
+//   id                     String   @id @default(uuid()) @db.Uuid
+//   fixtureId              String   @db.Uuid
+//   teamId                 String   @db.Uuid
+//   requestingCaptainUserId String  @db.Uuid  // must be isCaptain=true on teamId
+//   status                 String   // OPEN, FILLED, CANCELLED
+//   createdAt              DateTime @default(now())
+//   filledByUserId         String?  @db.Uuid
+// }

@@ -1,0 +1,199 @@
+{
+  "league": "Southport Tuesday 8-Team",
+  "location": "Southport",
+  "day": "Tuesday",
+  "teams": [
+    "Spice Goals",
+    "Panthers",
+    "Goal Diggers",
+    "Fifty Shades",
+    "NWA",
+    "Net Warriors",
+    "Court Couture",
+    "Nattering Netballers"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goal Diggers",
+          "away": "Net Warriors"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Fifty Shades",
+          "away": "NWA"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Spice Goals",
+          "away": "Nattering Netballers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Panthers",
+          "away": "Court Couture"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Spice Goals",
+          "away": "Court Couture"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Nattering Netballers",
+          "away": "Net Warriors"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Goal Diggers",
+          "away": "Fifty Shades"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Panthers",
+          "away": "NWA"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Goal Diggers",
+          "away": "Nattering Netballers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Spice Goals",
+          "away": "Panthers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Fifty Shades",
+          "away": "Court Couture"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "NWA",
+          "away": "Net Warriors"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Fifty Shades",
+          "away": "Panthers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Net Warriors",
+          "away": "Court Couture"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "NWA",
+          "away": "Nattering Netballers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Spice Goals",
+          "away": "Goal Diggers"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Spice Goals",
+          "away": "Fifty Shades"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "NWA",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Net Warriors",
+          "away": "Panthers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Court Couture",
+          "away": "Nattering Netballers"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Nattering Netballers",
+          "away": "Panthers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Court Couture",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Spice Goals",
+          "away": "NWA"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Net Warriors",
+          "away": "Fifty Shades"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Court Couture",
+          "away": "NWA"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Spice Goals",
+          "away": "Net Warriors"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Panthers",
+          "away": "Goal Diggers"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Nattering Netballers",
+          "away": "Fifty Shades"
+        }
+      ]
+    }
+  ]
+}

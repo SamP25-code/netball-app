@@ -1,0 +1,199 @@
+{
+  "league": "Morecambe Tuesday 8-Team",
+  "location": "Morecambe",
+  "day": "Tuesday",
+  "teams": [
+    "Second Wind",
+    "Pitch Please",
+    "Netspresso Martinis",
+    "Winging It",
+    "Bay City Ballers",
+    "Netball Ninjas",
+    "Hoopy Hour",
+    "Bounce Back"
+  ],
+  "timeSlots": [
+    "7:00pm",
+    "7:30pm",
+    "8:00pm",
+    "8:30pm"
+  ],
+  "seasonNumber": 1,
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netspresso Martinis",
+          "away": "Bounce Back"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Bay City Ballers",
+          "away": "Netball Ninjas"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Winging It",
+          "away": "Hoopy Hour"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Second Wind",
+          "away": "Pitch Please"
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Second Wind",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Hoopy Hour",
+          "away": "Bounce Back"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Bay City Ballers",
+          "away": "Netspresso Martinis"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netball Ninjas",
+          "away": "Pitch Please"
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Netball Ninjas",
+          "away": "Hoopy Hour"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Second Wind",
+          "away": "Netspresso Martinis"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Winging It",
+          "away": "Pitch Please"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Bay City Ballers",
+          "away": "Bounce Back"
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Winging It",
+          "away": "Bay City Ballers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pitch Please",
+          "away": "Hoopy Hour"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Netspresso Martinis",
+          "away": "Netball Ninjas"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Second Wind",
+          "away": "Bounce Back"
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Pitch Please",
+          "away": "Bay City Ballers"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Bounce Back",
+          "away": "Netball Ninjas"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Second Wind",
+          "away": "Hoopy Hour"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netspresso Martinis",
+          "away": "Winging It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Hoopy Hour",
+          "away": "Netspresso Martinis"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Second Wind",
+          "away": "Bay City Ballers"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Bounce Back",
+          "away": "Pitch Please"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Netball Ninjas",
+          "away": "Winging It"
+        }
+      ]
+    },
+    {
+      "weekNumber": 7,
+      "games": [
+        {
+          "timeSlot": "7:00pm",
+          "home": "Second Wind",
+          "away": "Netball Ninjas"
+        },
+        {
+          "timeSlot": "7:30pm",
+          "home": "Pitch Please",
+          "away": "Netspresso Martinis"
+        },
+        {
+          "timeSlot": "8:00pm",
+          "home": "Bounce Back",
+          "away": "Winging It"
+        },
+        {
+          "timeSlot": "8:30pm",
+          "home": "Hoopy Hour",
+          "away": "Bay City Ballers"
+        }
+      ]
+    }
+  ]
+}

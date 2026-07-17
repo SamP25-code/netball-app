@@ -5,10 +5,12 @@ import { getCurrentUser } from '@/lib/auth';
 import { getUserTeamMemberships } from '@/lib/teams';
 import { getLeagueWithCurrentSeasonFixtures } from '@/lib/league-view';
 import { getTeamActivationStatus } from '@/lib/availability';
+import { getOpenSubRequestsForUser } from '@/lib/subrequests';
 import { formatLeagueName } from '@/lib/format';
 import { FixtureRow } from '@/components/FixtureRow';
 import { ActivationCard } from '@/components/ActivationCard';
 import { AvailabilityPrompt } from '@/components/AvailabilityPrompt';
+import { OpenSubRequests } from '@/components/OpenSubRequests';
 
 export default async function MyTeamPage() {
   const user = await getCurrentUser();
@@ -44,6 +46,16 @@ export default async function MyTeamPage() {
   const activationStatus = await getTeamActivationStatus(team.id);
   const myResponse = activationStatus?.activation?.responses.find((r) => r.userId === user.id);
 
+  const subRequests = activationStatus
+    ? await db.subRequest.findMany({
+        where: { fixtureId: activationStatus.fixture.id, teamId: team.id },
+        include: { filledByUser: true },
+        orderBy: { createdAt: 'desc' },
+      })
+    : [];
+
+  const openSubRequests = await getOpenSubRequestsForUser(user.id);
+
   return (
     <div className="mx-auto max-w-3xl py-10">
       <h1 className="text-2xl font-semibold">{team.name}</h1>
@@ -56,6 +68,7 @@ export default async function MyTeamPage() {
 
       {membership.isCaptain && activationStatus && (
         <ActivationCard
+          fixtureId={activationStatus.fixture.id}
           teamId={team.id}
           opponentName={
             activationStatus.fixture.homeTeamId === team.id
@@ -66,8 +79,11 @@ export default async function MyTeamPage() {
           timeSlot={activationStatus.fixture.timeSlot}
           eligible={activationStatus.eligible}
           activation={activationStatus.activation}
+          subRequests={subRequests}
         />
       )}
+
+      <OpenSubRequests requests={openSubRequests} />
 
       {activationStatus?.activation && (
         <AvailabilityPrompt

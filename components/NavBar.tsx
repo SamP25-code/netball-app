@@ -2,10 +2,13 @@ import Link from 'next/link';
 import { getCurrentUser } from '@/lib/auth';
 import { logout } from '@/lib/actions/auth';
 import { getPendingResponsePrompt } from '@/lib/availability';
+import { getOpenSubRequestsForUser } from '@/lib/subrequests';
 
 export async function NavBar() {
   const user = await getCurrentUser();
   const pending = user ? await getPendingResponsePrompt(user.id) : null;
+  const openSubRequests = user ? await getOpenSubRequestsForUser(user.id) : [];
+  const hasNotification = Boolean(pending) || openSubRequests.length > 0;
 
   return (
     <header className="border-b border-gray-200 dark:border-gray-800">
@@ -22,7 +25,12 @@ export async function NavBar() {
           </Link>
           {user && (
             <Link href="/my-team" className="underline">
-              My Team{pending ? ' 🔔' : ''}
+              My Team{hasNotification ? ' 🔔' : ''}
+            </Link>
+          )}
+          {user && (
+            <Link href="/availability" className="underline">
+              My availability
             </Link>
           )}
           {user?.isAdmin && (

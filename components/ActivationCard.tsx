@@ -1,4 +1,5 @@
 import { activateFixture } from '@/lib/actions/availability';
+import { sendSubRequest } from '@/lib/actions/subrequests';
 
 type ResponseRow = {
   id: string;
@@ -6,13 +7,21 @@ type ResponseRow = {
   user: { displayName: string };
 };
 
+type SubRequestRow = {
+  id: string;
+  status: 'OPEN' | 'FILLED' | 'CANCELLED';
+  filledByUser?: { displayName: string } | null;
+};
+
 type Props = {
+  fixtureId: string;
   teamId: string;
   opponentName: string;
   weekNumber: number;
   timeSlot: string;
   eligible: boolean;
   activation: { responses: ResponseRow[] } | null;
+  subRequests: SubRequestRow[];
 };
 
 const LABELS: Record<string, string> = {
@@ -22,12 +31,14 @@ const LABELS: Record<string, string> = {
 };
 
 export function ActivationCard({
+  fixtureId,
   teamId,
   opponentName,
   weekNumber,
   timeSlot,
   eligible,
   activation,
+  subRequests,
 }: Props) {
   if (!activation) {
     return (
@@ -75,6 +86,31 @@ export function ActivationCard({
           ))}
         </ul>
       )}
+
+      <div className="mt-3 border-t border-gray-200 pt-3 dark:border-gray-700">
+        <form action={sendSubRequest}>
+          <input type="hidden" name="fixtureId" value={fixtureId} />
+          <input type="hidden" name="teamId" value={teamId} />
+          <button
+            type="submit"
+            className="rounded border border-gray-300 px-3 py-1 text-sm dark:border-gray-600"
+          >
+            Send sub request
+          </button>
+        </form>
+        {subRequests.length > 0 && (
+          <ul className="mt-2 text-xs text-gray-500 dark:text-gray-400">
+            {subRequests.map((sr) => (
+              <li key={sr.id}>
+                {sr.status === 'OPEN' && 'Sub request open — waiting for a response'}
+                {sr.status === 'FILLED' &&
+                  `Sub request filled by ${sr.filledByUser?.displayName ?? 'someone'}`}
+                {sr.status === 'CANCELLED' && 'Sub request cancelled'}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
   );
 }

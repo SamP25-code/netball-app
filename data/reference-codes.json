@@ -4,7 +4,7 @@
       "name": "Bamber Bridge Tuesday",
       "location": "Bamber Bridge",
       "day": "Tuesday",
-      "seasonStart": "2026-07-14",
+      "seasonStart": "2026-08-11",
       "teams": [
         {
           "reference": "BBR-TUE-T1",
@@ -62,7 +62,7 @@
       "name": "Chorley Monday",
       "location": "Chorley",
       "day": "Monday",
-      "seasonStart": "2026-07-13",
+      "seasonStart": "2026-09-07",
       "teams": [
         {
           "reference": "CHY-MON-T1",
@@ -110,47 +110,47 @@
       "name": "Bolton Thursday",
       "location": "Bolton",
       "day": "Thursday",
-      "seasonStart": "2026-07-16",
+      "seasonStart": "2026-08-13",
       "teams": [
         {
           "reference": "BOL-THU-T1",
           "team": "Unstoppaballs",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T2",
           "team": "Goal Diggers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T3",
           "team": "Shooting Stars",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T4",
           "team": "Court Queens",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T5",
           "team": "Nets Top Models",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T6",
           "team": "Ball Blazers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T7",
           "team": "Sassy Strikers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "BOL-THU-T8",
           "team": "Ball Of Duty",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -158,7 +158,7 @@
       "name": "Chorley Tuesday",
       "location": "Chorley",
       "day": "Tuesday",
-      "seasonStart": "2026-07-14",
+      "seasonStart": "2026-09-15",
       "teams": [
         {
           "reference": "CHY-TUE-T1",
@@ -206,7 +206,7 @@
       "name": "Chorley Wednesday",
       "location": "Chorley",
       "day": "Wednesday",
-      "seasonStart": "2026-07-15",
+      "seasonStart": "2026-08-12",
       "teams": [
         {
           "reference": "CHY-WED-T1",
@@ -254,47 +254,47 @@
       "name": "Darwen Wednesday",
       "location": "Darwen",
       "day": "Wednesday",
-      "seasonStart": "2026-07-15",
+      "seasonStart": "2026-07-22",
       "teams": [
         {
           "reference": "DRW-WED-T1",
           "team": "Shooting Stars",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T2",
           "team": "Net Setters",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T3",
           "team": "Sweaty Bettys",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T4",
           "team": "Hoop There It Is",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T5",
           "team": "The Enthusiastics",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T6",
           "team": "Mother of Balls",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T7",
           "team": "Pitch Slap",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "DRW-WED-T8",
           "team": "Court Queens",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -302,7 +302,7 @@
       "name": "Leyland Wednesday",
       "location": "Leyland",
       "day": "Wednesday",
-      "seasonStart": "2026-07-15",
+      "seasonStart": "2026-08-12",
       "teams": [
         {
           "reference": "LEY-WED-T1",
@@ -350,47 +350,47 @@
       "name": "Morecambe Tuesday",
       "location": "Morecambe",
       "day": "Tuesday",
-      "seasonStart": "2026-07-14",
+      "seasonStart": "2026-09-01",
       "teams": [
         {
           "reference": "MRC-TUE-T1",
           "team": "Second Wind",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T2",
           "team": "Pitch Please",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T3",
           "team": "Netspresso Martinis",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T4",
           "team": "Winging It",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T5",
           "team": "Bay City Ballers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T6",
           "team": "Netball Ninjas",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T7",
           "team": "Hoopy Hour",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-TUE-T8",
           "team": "Bounce Back",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -398,47 +398,47 @@
       "name": "Morecambe Wednesday",
       "location": "Morecambe",
       "day": "Wednesday",
-      "seasonStart": "2026-07-15",
+      "seasonStart": "2026-07-22",
       "teams": [
         {
           "reference": "MRC-WED-T1",
           "team": "Valkryies",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T2",
           "team": "Block It Like Its Hot",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T3",
           "team": "Bay Breakers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T4",
           "team": "Accidental Athletes",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T5",
           "team": "Court Queens",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T6",
           "team": "Coastal Comets",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T7",
           "team": "Goalden Girls",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "MRC-WED-T8",
           "team": "Pass and Sass",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -446,47 +446,47 @@
       "name": "Northwich Monday",
       "location": "Northwich",
       "day": "Monday",
-      "seasonStart": "2026-07-13",
+      "seasonStart": "2026-09-21",
       "teams": [
         {
           "reference": "NTH-MON-T1",
           "team": "Naughty Netters",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T2",
           "team": "Flaming Flamingos",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T3",
           "team": "Goal Getters",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T4",
           "team": "Block It Like Its Hot",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T5",
           "team": "Net Set Glow",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T6",
           "team": "Hashtag Goals",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T7",
           "team": "Thundercats",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-MON-T8",
           "team": "Sweaty Nettys",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -494,47 +494,47 @@
       "name": "Northwich Thursday",
       "location": "Northwich",
       "day": "Thursday",
-      "seasonStart": "2026-07-16",
+      "seasonStart": "2026-08-20",
       "teams": [
         {
           "reference": "NTH-THU-T1",
           "team": "Pivotal Moments",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T2",
           "team": "Hungry Hippos",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T3",
           "team": "Nets Top Models",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T4",
           "team": "Goalden Girls",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T5",
           "team": "Pink Ponies",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T6",
           "team": "Hoop There It Is",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T7",
           "team": "Lets Wing It",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "NTH-THU-T8",
           "team": "Spice Goals",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -542,7 +542,7 @@
       "name": "Penwortham Monday",
       "location": "Penwortham",
       "day": "Monday",
-      "seasonStart": "2026-07-13",
+      "seasonStart": "2026-09-14",
       "teams": [
         {
           "reference": "PEN-MON-T1",
@@ -600,7 +600,7 @@
       "name": "Penwortham Tuesday",
       "location": "Penwortham",
       "day": "Tuesday",
-      "seasonStart": "2026-07-14",
+      "seasonStart": "2026-09-22",
       "teams": [
         {
           "reference": "PEN-TUE-T1",
@@ -648,7 +648,7 @@
       "name": "Southport Thursday",
       "location": "Southport",
       "day": "Thursday",
-      "seasonStart": "2026-07-16",
+      "seasonStart": "2026-09-17",
       "teams": [
         {
           "reference": "SPT-THU-T1",
@@ -706,7 +706,7 @@
       "name": "Southport Tuesday",
       "location": "Southport",
       "day": "Tuesday",
-      "seasonStart": "2026-07-14",
+      "seasonStart": "2026-08-18",
       "teams": [
         {
           "reference": "SPT-TUE-T1",
@@ -754,37 +754,37 @@
       "name": "Wakefield Wednesday",
       "location": "Wakefield",
       "day": "Wednesday",
-      "seasonStart": "2026-07-15",
+      "seasonStart": "2026-07-22",
       "teams": [
         {
           "reference": "WKF-WED-T1",
           "team": "Wing It",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "WKF-WED-T2",
           "team": "Hoops We Did it Again",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "WKF-WED-T3",
           "team": "Net Ninjas",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "WKF-WED-T4",
           "team": "Peaky Ballers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "WKF-WED-T5",
           "team": "Flex The Net",
-          "weeklyFee": 35
+          "weeklyFee": 42
         },
         {
           "reference": "WKF-WED-T6",
           "team": "Court Breakers",
-          "weeklyFee": 35
+          "weeklyFee": 42
         }
       ]
     },
@@ -792,7 +792,7 @@
       "name": "Wigan Wednesday",
       "location": "Wigan",
       "day": "Wednesday",
-      "seasonStart": "2026-07-15",
+      "seasonStart": "2026-08-12",
       "teams": [
         {
           "reference": "WGN-WED-T1",

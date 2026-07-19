@@ -4,7 +4,7 @@ import path from 'node:path';
 import { db } from '../lib/db';
 
 // One-time (per season) local import: reads data/reference-codes.json +
-// data/fixtures/<Venue>/<Day>/<N>_team_fixtures.generated.json (committed in
+// data/fixtures/<Venue>/<Day>/fixtures.generated.json (committed in
 // Home-Project) plus data/season-starts.json (real dates, filled in by Sam)
 // and upserts League/Team/Season/Fixture rows. Never run at deploy time.
 //
@@ -39,8 +39,7 @@ function loadSeasonStarts(): Record<string, string | null> {
 }
 
 function fixturesFilePath(league: ReferenceLeague): string {
-  const n = league.teams.length;
-  return path.join(DATA_DIR, 'fixtures', league.location, league.day, `${n}_team_fixtures.generated.json`);
+  return path.join(DATA_DIR, 'fixtures', league.location, league.day, 'fixtures.generated.json');
 }
 
 async function importLeague(league: ReferenceLeague, seasonStart: string) {

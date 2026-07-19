@@ -1,16 +1,16 @@
 {
-  "league": "Darwen Wednesday 8-Team",
-  "location": "Darwen",
-  "day": "Wednesday",
+  "league": "Bolton Thursday",
+  "location": "Bolton",
+  "day": "Thursday",
   "teams": [
+    "Unstoppaballs",
+    "Goal Diggers",
     "Shooting Stars",
-    "Net Setters",
-    "Sweaty Bettys",
-    "Hoop There It Is",
-    "The Enthusiastics",
-    "Mother of Balls",
-    "Pitch Slap",
-    "Court Queens"
+    "Court Queens",
+    "Nets Top Models",
+    "Ball Blazers",
+    "Sassy Strikers",
+    "Ball Of Duty"
   ],
   "timeSlots": [
     "7:00pm",
@@ -25,23 +25,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Hoop There It Is",
-          "away": "Pitch Slap"
+          "home": "Shooting Stars",
+          "away": "Ball Of Duty"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "The Enthusiastics",
-          "away": "Mother of Balls"
+          "home": "Court Queens",
+          "away": "Sassy Strikers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Sweaty Bettys",
-          "away": "Court Queens"
+          "home": "Nets Top Models",
+          "away": "Ball Blazers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Shooting Stars",
-          "away": "Net Setters"
+          "home": "Unstoppaballs",
+          "away": "Goal Diggers"
         }
       ]
     },
@@ -50,23 +50,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Shooting Stars",
-          "away": "Court Queens"
+          "home": "Ball Blazers",
+          "away": "Sassy Strikers"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Net Setters",
-          "away": "Pitch Slap"
+          "home": "Nets Top Models",
+          "away": "Ball Of Duty"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Hoop There It Is",
-          "away": "The Enthusiastics"
+          "home": "Unstoppaballs",
+          "away": "Shooting Stars"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Sweaty Bettys",
-          "away": "Mother of Balls"
+          "home": "Court Queens",
+          "away": "Goal Diggers"
         }
       ]
     },
@@ -75,23 +75,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Net Setters",
-          "away": "Sweaty Bettys"
+          "home": "Unstoppaballs",
+          "away": "Court Queens"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Shooting Stars",
-          "away": "Mother of Balls"
+          "home": "Nets Top Models",
+          "away": "Shooting Stars"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Pitch Slap",
-          "away": "The Enthusiastics"
+          "home": "Ball Blazers",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Court Queens",
-          "away": "Hoop There It Is"
+          "home": "Sassy Strikers",
+          "away": "Ball Of Duty"
         }
       ]
     },
@@ -100,23 +100,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "The Enthusiastics",
-          "away": "Court Queens"
+          "home": "Goal Diggers",
+          "away": "Shooting Stars"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Hoop There It Is",
-          "away": "Net Setters"
+          "home": "Unstoppaballs",
+          "away": "Ball Blazers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Shooting Stars",
-          "away": "Sweaty Bettys"
+          "home": "Ball Of Duty",
+          "away": "Court Queens"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Mother of Balls",
-          "away": "Pitch Slap"
+          "home": "Sassy Strikers",
+          "away": "Nets Top Models"
         }
       ]
     },
@@ -125,22 +125,22 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Shooting Stars",
-          "away": "Hoop There It Is"
+          "home": "Goal Diggers",
+          "away": "Nets Top Models"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "The Enthusiastics",
-          "away": "Sweaty Bettys"
+          "home": "Ball Of Duty",
+          "away": "Ball Blazers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Mother of Balls",
-          "away": "Net Setters"
+          "home": "Unstoppaballs",
+          "away": "Sassy Strikers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Pitch Slap",
+          "home": "Shooting Stars",
           "away": "Court Queens"
         }
       ]
@@ -150,23 +150,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Net Setters",
-          "away": "The Enthusiastics"
+          "home": "Ball Blazers",
+          "away": "Court Queens"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Shooting Stars",
-          "away": "Pitch Slap"
+          "home": "Sassy Strikers",
+          "away": "Shooting Stars"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Court Queens",
-          "away": "Mother of Balls"
+          "home": "Ball Of Duty",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Sweaty Bettys",
-          "away": "Hoop There It Is"
+          "home": "Unstoppaballs",
+          "away": "Nets Top Models"
         }
       ]
     },
@@ -175,23 +175,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Mother of Balls",
-          "away": "Hoop There It Is"
+          "home": "Unstoppaballs",
+          "away": "Ball Of Duty"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Court Queens",
-          "away": "Net Setters"
+          "home": "Goal Diggers",
+          "away": "Sassy Strikers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Pitch Slap",
-          "away": "Sweaty Bettys"
+          "home": "Court Queens",
+          "away": "Nets Top Models"
         },
         {
           "timeSlot": "8:30pm",
           "home": "Shooting Stars",
-          "away": "The Enthusiastics"
+          "away": "Ball Blazers"
         }
       ]
     }

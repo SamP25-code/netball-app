@@ -1,16 +1,16 @@
 {
-  "league": "Southport Tuesday 8-Team",
-  "location": "Southport",
+  "league": "Penwortham Tuesday",
+  "location": "Penwortham",
   "day": "Tuesday",
   "teams": [
-    "Spice Goals",
-    "Panthers",
+    "Cant Catch This",
     "Goal Diggers",
-    "Fifty Shades",
-    "NWA",
-    "Net Warriors",
-    "Court Couture",
-    "Nattering Netballers"
+    "Netchicks",
+    "Hoops I did it Again",
+    "Winging it",
+    "Spice Goals",
+    "Goal Getters",
+    "Win or Booze"
   ],
   "timeSlots": [
     "7:00pm",
@@ -25,23 +25,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Goal Diggers",
-          "away": "Net Warriors"
+          "home": "Cant Catch This",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Fifty Shades",
-          "away": "NWA"
+          "home": "Winging it",
+          "away": "Spice Goals"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Spice Goals",
-          "away": "Nattering Netballers"
+          "home": "Hoops I did it Again",
+          "away": "Goal Getters"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Panthers",
-          "away": "Court Couture"
+          "home": "Netchicks",
+          "away": "Win or Booze"
         }
       ]
     },
@@ -51,22 +51,22 @@
         {
           "timeSlot": "7:00pm",
           "home": "Spice Goals",
-          "away": "Court Couture"
+          "away": "Hoops I did it Again"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Nattering Netballers",
-          "away": "Net Warriors"
+          "home": "Win or Booze",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Goal Diggers",
-          "away": "Fifty Shades"
+          "home": "Cant Catch This",
+          "away": "Winging it"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Panthers",
-          "away": "NWA"
+          "home": "Goal Getters",
+          "away": "Netchicks"
         }
       ]
     },
@@ -76,22 +76,22 @@
         {
           "timeSlot": "7:00pm",
           "home": "Goal Diggers",
-          "away": "Nattering Netballers"
+          "away": "Winging it"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Spice Goals",
-          "away": "Panthers"
+          "home": "Netchicks",
+          "away": "Hoops I did it Again"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Fifty Shades",
-          "away": "Court Couture"
+          "home": "Win or Booze",
+          "away": "Spice Goals"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "NWA",
-          "away": "Net Warriors"
+          "home": "Cant Catch This",
+          "away": "Goal Getters"
         }
       ]
     },
@@ -100,22 +100,22 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Fifty Shades",
-          "away": "Panthers"
+          "home": "Winging it",
+          "away": "Win or Booze"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Net Warriors",
-          "away": "Court Couture"
+          "home": "Spice Goals",
+          "away": "Goal Getters"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "NWA",
-          "away": "Nattering Netballers"
+          "home": "Cant Catch This",
+          "away": "Netchicks"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Spice Goals",
+          "home": "Hoops I did it Again",
           "away": "Goal Diggers"
         }
       ]
@@ -125,23 +125,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Spice Goals",
-          "away": "Fifty Shades"
+          "home": "Win or Booze",
+          "away": "Hoops I did it Again"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "NWA",
-          "away": "Goal Diggers"
+          "home": "Goal Getters",
+          "away": "Winging it"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Net Warriors",
-          "away": "Panthers"
+          "home": "Goal Diggers",
+          "away": "Netchicks"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Court Couture",
-          "away": "Nattering Netballers"
+          "home": "Cant Catch This",
+          "away": "Spice Goals"
         }
       ]
     },
@@ -150,23 +150,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Nattering Netballers",
-          "away": "Panthers"
+          "home": "Winging it",
+          "away": "Netchicks"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Court Couture",
-          "away": "Goal Diggers"
+          "home": "Cant Catch This",
+          "away": "Hoops I did it Again"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Spice Goals",
-          "away": "NWA"
+          "home": "Goal Getters",
+          "away": "Win or Booze"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Net Warriors",
-          "away": "Fifty Shades"
+          "home": "Spice Goals",
+          "away": "Goal Diggers"
         }
       ]
     },
@@ -175,23 +175,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Court Couture",
-          "away": "NWA"
+          "home": "Goal Diggers",
+          "away": "Goal Getters"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Spice Goals",
-          "away": "Net Warriors"
+          "home": "Cant Catch This",
+          "away": "Win or Booze"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Panthers",
-          "away": "Goal Diggers"
+          "home": "Netchicks",
+          "away": "Spice Goals"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Nattering Netballers",
-          "away": "Fifty Shades"
+          "home": "Hoops I did it Again",
+          "away": "Winging it"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "leagues": [
     {
-      "name": "Bamber Bridge Tuesday 10-Team",
+      "name": "Bamber Bridge Tuesday",
       "location": "Bamber Bridge",
       "day": "Tuesday",
       "seasonStart": "2026-07-14",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "name": "Chorley Monday 8-Team",
+      "name": "Chorley Monday",
       "location": "Chorley",
       "day": "Monday",
       "seasonStart": "2026-07-13",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "name": "Bolton Thursday 8-Team",
+      "name": "Bolton Thursday",
       "location": "Bolton",
       "day": "Thursday",
       "seasonStart": "2026-07-16",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "name": "Chorley Tuesday 8-Team",
+      "name": "Chorley Tuesday",
       "location": "Chorley",
       "day": "Tuesday",
       "seasonStart": "2026-07-14",
@@ -203,7 +203,7 @@
       ]
     },
     {
-      "name": "Chorley Wednesday 8-Team",
+      "name": "Chorley Wednesday",
       "location": "Chorley",
       "day": "Wednesday",
       "seasonStart": "2026-07-15",
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "name": "Darwen Wednesday 8-Team",
+      "name": "Darwen Wednesday",
       "location": "Darwen",
       "day": "Wednesday",
       "seasonStart": "2026-07-15",
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "name": "Leyland Wednesday 8-Team",
+      "name": "Leyland Wednesday",
       "location": "Leyland",
       "day": "Wednesday",
       "seasonStart": "2026-07-15",
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "name": "Morecambe Tuesday 8-Team",
+      "name": "Morecambe Tuesday",
       "location": "Morecambe",
       "day": "Tuesday",
       "seasonStart": "2026-07-14",
@@ -395,7 +395,7 @@
       ]
     },
     {
-      "name": "Morecambe Wednesday 8-Team",
+      "name": "Morecambe Wednesday",
       "location": "Morecambe",
       "day": "Wednesday",
       "seasonStart": "2026-07-15",
@@ -443,7 +443,7 @@
       ]
     },
     {
-      "name": "Northwich Monday 8-Team",
+      "name": "Northwich Monday",
       "location": "Northwich",
       "day": "Monday",
       "seasonStart": "2026-07-13",
@@ -491,7 +491,7 @@
       ]
     },
     {
-      "name": "Northwich Thursday 8-Team",
+      "name": "Northwich Thursday",
       "location": "Northwich",
       "day": "Thursday",
       "seasonStart": "2026-07-16",
@@ -539,7 +539,7 @@
       ]
     },
     {
-      "name": "Penwortham Monday 10-Team",
+      "name": "Penwortham Monday",
       "location": "Penwortham",
       "day": "Monday",
       "seasonStart": "2026-07-13",
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "name": "Penwortham Tuesday 8-Team",
+      "name": "Penwortham Tuesday",
       "location": "Penwortham",
       "day": "Tuesday",
       "seasonStart": "2026-07-14",
@@ -645,7 +645,7 @@
       ]
     },
     {
-      "name": "Southport Thursday 10-Team",
+      "name": "Southport Thursday",
       "location": "Southport",
       "day": "Thursday",
       "seasonStart": "2026-07-16",
@@ -703,7 +703,7 @@
       ]
     },
     {
-      "name": "Southport Tuesday 8-Team",
+      "name": "Southport Tuesday",
       "location": "Southport",
       "day": "Tuesday",
       "seasonStart": "2026-07-14",
@@ -751,7 +751,7 @@
       ]
     },
     {
-      "name": "Wakefield Wednesday 6-Team",
+      "name": "Wakefield Wednesday",
       "location": "Wakefield",
       "day": "Wednesday",
       "seasonStart": "2026-07-15",
@@ -789,7 +789,7 @@
       ]
     },
     {
-      "name": "Wigan Wednesday 8-Team",
+      "name": "Wigan Wednesday",
       "location": "Wigan",
       "day": "Wednesday",
       "seasonStart": "2026-07-15",

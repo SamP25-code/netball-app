@@ -1,16 +1,16 @@
 {
-  "league": "Chorley Monday 8-Team",
+  "league": "Chorley Wednesday",
   "location": "Chorley",
-  "day": "Monday",
+  "day": "Wednesday",
   "teams": [
-    "Netsetters",
-    "All Stars",
-    "Vortex",
-    "Hot Shots",
+    "Court Queens",
+    "Goal Diggers",
+    "Game of Throws",
+    "Golden Goals",
     "Winging It",
-    "Netchicks",
-    "Basket Hounds",
-    "Spice Goals"
+    "Wanderballs",
+    "Net Ninjas",
+    "Slay Queens"
   ],
   "timeSlots": [
     "7:00pm",
@@ -25,23 +25,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Vortex",
-          "away": "Hot Shots"
+          "home": "Court Queens",
+          "away": "Golden Goals"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "All Stars",
-          "away": "Winging It"
+          "home": "Winging It",
+          "away": "Game of Throws"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Netsetters",
-          "away": "Basket Hounds"
+          "home": "Wanderballs",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Spice Goals",
-          "away": "Netchicks"
+          "home": "Net Ninjas",
+          "away": "Slay Queens"
         }
       ]
     },
@@ -50,23 +50,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Netchicks",
-          "away": "All Stars"
+          "home": "Goal Diggers",
+          "away": "Game of Throws"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Netsetters",
-          "away": "Hot Shots"
+          "home": "Slay Queens",
+          "away": "Golden Goals"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Winging It",
-          "away": "Vortex"
+          "home": "Net Ninjas",
+          "away": "Winging It"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Basket Hounds",
-          "away": "Spice Goals"
+          "home": "Court Queens",
+          "away": "Wanderballs"
         }
       ]
     },
@@ -75,23 +75,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Basket Hounds",
-          "away": "Winging It"
+          "home": "Wanderballs",
+          "away": "Net Ninjas"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Netsetters",
-          "away": "Netchicks"
+          "home": "Golden Goals",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Spice Goals",
-          "away": "Hot Shots"
+          "home": "Court Queens",
+          "away": "Game of Throws"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "All Stars",
-          "away": "Vortex"
+          "home": "Winging It",
+          "away": "Slay Queens"
         }
       ]
     },
@@ -100,23 +100,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Netsetters",
-          "away": "Vortex"
+          "home": "Slay Queens",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Winging It",
-          "away": "Spice Goals"
+          "home": "Net Ninjas",
+          "away": "Game of Throws"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Hot Shots",
-          "away": "All Stars"
+          "home": "Wanderballs",
+          "away": "Golden Goals"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Netchicks",
-          "away": "Basket Hounds"
+          "home": "Court Queens",
+          "away": "Winging It"
         }
       ]
     },
@@ -125,23 +125,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Netsetters",
-          "away": "Spice Goals"
+          "home": "Golden Goals",
+          "away": "Winging It"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "All Stars",
-          "away": "Basket Hounds"
+          "home": "Court Queens",
+          "away": "Slay Queens"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Vortex",
-          "away": "Netchicks"
+          "home": "Goal Diggers",
+          "away": "Net Ninjas"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Hot Shots",
-          "away": "Winging It"
+          "home": "Game of Throws",
+          "away": "Wanderballs"
         }
       ]
     },
@@ -150,23 +150,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Netchicks",
-          "away": "Hot Shots"
+          "home": "Winging It",
+          "away": "Wanderballs"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Basket Hounds",
-          "away": "Vortex"
+          "home": "Court Queens",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Spice Goals",
-          "away": "All Stars"
+          "home": "Game of Throws",
+          "away": "Slay Queens"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Netsetters",
-          "away": "Winging It"
+          "home": "Golden Goals",
+          "away": "Net Ninjas"
         }
       ]
     },
@@ -175,23 +175,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Hot Shots",
-          "away": "Basket Hounds"
+          "home": "Court Queens",
+          "away": "Net Ninjas"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Vortex",
-          "away": "Spice Goals"
+          "home": "Slay Queens",
+          "away": "Wanderballs"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Winging It",
-          "away": "Netchicks"
+          "home": "Goal Diggers",
+          "away": "Winging It"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Netsetters",
-          "away": "All Stars"
+          "home": "Game of Throws",
+          "away": "Golden Goals"
         }
       ]
     }

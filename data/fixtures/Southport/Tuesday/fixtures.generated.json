@@ -1,16 +1,16 @@
 {
-  "league": "Chorley Wednesday 8-Team",
-  "location": "Chorley",
-  "day": "Wednesday",
+  "league": "Southport Tuesday",
+  "location": "Southport",
+  "day": "Tuesday",
   "teams": [
-    "Court Queens",
+    "Spice Goals",
+    "Panthers",
     "Goal Diggers",
-    "Game of Throws",
-    "Golden Goals",
-    "Winging It",
-    "Wanderballs",
-    "Net Ninjas",
-    "Slay Queens"
+    "Fifty Shades",
+    "NWA",
+    "Net Warriors",
+    "Court Couture",
+    "Nattering Netballers"
   ],
   "timeSlots": [
     "7:00pm",
@@ -25,23 +25,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Court Queens",
-          "away": "Golden Goals"
+          "home": "Goal Diggers",
+          "away": "Net Warriors"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Winging It",
-          "away": "Game of Throws"
+          "home": "Fifty Shades",
+          "away": "NWA"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Wanderballs",
-          "away": "Goal Diggers"
+          "home": "Spice Goals",
+          "away": "Nattering Netballers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Net Ninjas",
-          "away": "Slay Queens"
+          "home": "Panthers",
+          "away": "Court Couture"
         }
       ]
     },
@@ -50,23 +50,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Goal Diggers",
-          "away": "Game of Throws"
+          "home": "Spice Goals",
+          "away": "Court Couture"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Slay Queens",
-          "away": "Golden Goals"
+          "home": "Nattering Netballers",
+          "away": "Net Warriors"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Net Ninjas",
-          "away": "Winging It"
+          "home": "Goal Diggers",
+          "away": "Fifty Shades"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Court Queens",
-          "away": "Wanderballs"
+          "home": "Panthers",
+          "away": "NWA"
         }
       ]
     },
@@ -75,23 +75,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Wanderballs",
-          "away": "Net Ninjas"
+          "home": "Goal Diggers",
+          "away": "Nattering Netballers"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Golden Goals",
-          "away": "Goal Diggers"
+          "home": "Spice Goals",
+          "away": "Panthers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Court Queens",
-          "away": "Game of Throws"
+          "home": "Fifty Shades",
+          "away": "Court Couture"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Winging It",
-          "away": "Slay Queens"
+          "home": "NWA",
+          "away": "Net Warriors"
         }
       ]
     },
@@ -100,23 +100,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Slay Queens",
-          "away": "Goal Diggers"
+          "home": "Fifty Shades",
+          "away": "Panthers"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Net Ninjas",
-          "away": "Game of Throws"
+          "home": "Net Warriors",
+          "away": "Court Couture"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Wanderballs",
-          "away": "Golden Goals"
+          "home": "NWA",
+          "away": "Nattering Netballers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Court Queens",
-          "away": "Winging It"
+          "home": "Spice Goals",
+          "away": "Goal Diggers"
         }
       ]
     },
@@ -125,23 +125,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Golden Goals",
-          "away": "Winging It"
+          "home": "Spice Goals",
+          "away": "Fifty Shades"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Court Queens",
-          "away": "Slay Queens"
+          "home": "NWA",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Goal Diggers",
-          "away": "Net Ninjas"
+          "home": "Net Warriors",
+          "away": "Panthers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Game of Throws",
-          "away": "Wanderballs"
+          "home": "Court Couture",
+          "away": "Nattering Netballers"
         }
       ]
     },
@@ -150,23 +150,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Winging It",
-          "away": "Wanderballs"
+          "home": "Nattering Netballers",
+          "away": "Panthers"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Court Queens",
+          "home": "Court Couture",
           "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Game of Throws",
-          "away": "Slay Queens"
+          "home": "Spice Goals",
+          "away": "NWA"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Golden Goals",
-          "away": "Net Ninjas"
+          "home": "Net Warriors",
+          "away": "Fifty Shades"
         }
       ]
     },
@@ -175,23 +175,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Court Queens",
-          "away": "Net Ninjas"
+          "home": "Court Couture",
+          "away": "NWA"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Slay Queens",
-          "away": "Wanderballs"
+          "home": "Spice Goals",
+          "away": "Net Warriors"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Goal Diggers",
-          "away": "Winging It"
+          "home": "Panthers",
+          "away": "Goal Diggers"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Game of Throws",
-          "away": "Golden Goals"
+          "home": "Nattering Netballers",
+          "away": "Fifty Shades"
         }
       ]
     }

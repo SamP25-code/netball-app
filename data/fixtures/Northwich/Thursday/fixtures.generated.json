@@ -1,16 +1,16 @@
 {
-  "league": "Bolton Thursday 8-Team",
-  "location": "Bolton",
+  "league": "Northwich Thursday",
+  "location": "Northwich",
   "day": "Thursday",
   "teams": [
-    "Unstoppaballs",
-    "Goal Diggers",
-    "Shooting Stars",
-    "Court Queens",
+    "Pivotal Moments",
+    "Hungry Hippos",
     "Nets Top Models",
-    "Ball Blazers",
-    "Sassy Strikers",
-    "Ball Of Duty"
+    "Goalden Girls",
+    "Pink Ponies",
+    "Hoop There It Is",
+    "Lets Wing It",
+    "Spice Goals"
   ],
   "timeSlots": [
     "7:00pm",
@@ -25,23 +25,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Shooting Stars",
-          "away": "Ball Of Duty"
+          "home": "Nets Top Models",
+          "away": "Goalden Girls"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Court Queens",
-          "away": "Sassy Strikers"
+          "home": "Hungry Hippos",
+          "away": "Pink Ponies"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Nets Top Models",
-          "away": "Ball Blazers"
+          "home": "Spice Goals",
+          "away": "Hoop There It Is"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Unstoppaballs",
-          "away": "Goal Diggers"
+          "home": "Pivotal Moments",
+          "away": "Lets Wing It"
         }
       ]
     },
@@ -50,23 +50,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Ball Blazers",
-          "away": "Sassy Strikers"
+          "home": "Spice Goals",
+          "away": "Hungry Hippos"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Nets Top Models",
-          "away": "Ball Of Duty"
+          "home": "Hoop There It Is",
+          "away": "Goalden Girls"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Unstoppaballs",
-          "away": "Shooting Stars"
+          "home": "Pivotal Moments",
+          "away": "Pink Ponies"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Court Queens",
-          "away": "Goal Diggers"
+          "home": "Lets Wing It",
+          "away": "Nets Top Models"
         }
       ]
     },
@@ -75,23 +75,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Unstoppaballs",
-          "away": "Court Queens"
+          "home": "Pivotal Moments",
+          "away": "Hoop There It Is"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Nets Top Models",
-          "away": "Shooting Stars"
+          "home": "Lets Wing It",
+          "away": "Pink Ponies"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Ball Blazers",
-          "away": "Goal Diggers"
+          "home": "Hungry Hippos",
+          "away": "Nets Top Models"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Sassy Strikers",
-          "away": "Ball Of Duty"
+          "home": "Spice Goals",
+          "away": "Goalden Girls"
         }
       ]
     },
@@ -100,22 +100,22 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Goal Diggers",
-          "away": "Shooting Stars"
+          "home": "Lets Wing It",
+          "away": "Spice Goals"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Unstoppaballs",
-          "away": "Ball Blazers"
+          "home": "Pivotal Moments",
+          "away": "Goalden Girls"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Ball Of Duty",
-          "away": "Court Queens"
+          "home": "Hoop There It Is",
+          "away": "Hungry Hippos"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Sassy Strikers",
+          "home": "Pink Ponies",
           "away": "Nets Top Models"
         }
       ]
@@ -125,23 +125,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Goal Diggers",
-          "away": "Nets Top Models"
+          "home": "Hoop There It Is",
+          "away": "Lets Wing It"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Ball Of Duty",
-          "away": "Ball Blazers"
+          "home": "Pivotal Moments",
+          "away": "Nets Top Models"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Unstoppaballs",
-          "away": "Sassy Strikers"
+          "home": "Pink Ponies",
+          "away": "Spice Goals"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Shooting Stars",
-          "away": "Court Queens"
+          "home": "Goalden Girls",
+          "away": "Hungry Hippos"
         }
       ]
     },
@@ -150,23 +150,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Ball Blazers",
-          "away": "Court Queens"
+          "home": "Goalden Girls",
+          "away": "Pink Ponies"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Sassy Strikers",
-          "away": "Shooting Stars"
+          "home": "Nets Top Models",
+          "away": "Hoop There It Is"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Ball Of Duty",
-          "away": "Goal Diggers"
+          "home": "Hungry Hippos",
+          "away": "Lets Wing It"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Unstoppaballs",
-          "away": "Nets Top Models"
+          "home": "Pivotal Moments",
+          "away": "Spice Goals"
         }
       ]
     },
@@ -175,23 +175,23 @@
       "games": [
         {
           "timeSlot": "7:00pm",
-          "home": "Unstoppaballs",
-          "away": "Ball Of Duty"
+          "home": "Pivotal Moments",
+          "away": "Hungry Hippos"
         },
         {
           "timeSlot": "7:30pm",
-          "home": "Goal Diggers",
-          "away": "Sassy Strikers"
+          "home": "Nets Top Models",
+          "away": "Spice Goals"
         },
         {
           "timeSlot": "8:00pm",
-          "home": "Court Queens",
-          "away": "Nets Top Models"
+          "home": "Goalden Girls",
+          "away": "Lets Wing It"
         },
         {
           "timeSlot": "8:30pm",
-          "home": "Shooting Stars",
-          "away": "Ball Blazers"
+          "home": "Pink Ponies",
+          "away": "Hoop There It Is"
         }
       ]
     }
